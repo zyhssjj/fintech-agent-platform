@@ -1,0 +1,11 @@
+# Local Go build and dependency caches
+.gocache/
+.gomodcache/
+__pycache__/
+
+# Local backend process logs
+backend/*.log
+backend/*_log.txt
+
+# Local AI service logs
+ai/*.log

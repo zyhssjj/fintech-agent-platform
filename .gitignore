@@ -1,0 +1,39 @@
+# Credentials and local config
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+# Dependencies and generated files
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.gocache/
+.gomodcache/
+.npm-cache/
+.pytest_cache/
+dist/
+bin/
+*.exe
+*.dll
+*.log
+*_log.txt
+# Runtime, mailbox, database and uploaded business data
+runtime/
+es-data/
+models/
+logs/
+storage/
+uploads/
+*.db
+*.sqlite*
+*.dump
+*.bak
+*.zip
+knowledge/data/finance/*
+!knowledge/data/finance/.gitkeep
+.DS_Store
+Thumbs.db

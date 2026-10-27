@@ -1,0 +1,39 @@
+APP_NAME: WFAgent
+APP_ENV: dev
+APP_VERSION: 0.1.0
+
+HTTP_HOST: 0.0.0.0
+HTTP_PORT: 8080
+
+DB_ENABLED: false
+POSTGRES_HOST: 127.0.0.1
+POSTGRES_PORT: 5432
+POSTGRES_USER: postgres
+POSTGRES_PASSWORD: 123456
+POSTGRES_DATABASE: wfagent_db
+POSTGRES_SSLMODE: disable
+
+REDIS_ENABLED: true
+REDIS_HOST: 127.0.0.1
+REDIS_PORT: 6379
+
+FILE_STORAGE_DRIVER: minio
+FILE_UPLOAD_DIR: storage/uploads
+FILE_MAX_UPLOAD_MB: 50
+FILE_ALLOWED_TYPES:
+  - .pdf
+  - .doc
+  - .docx
+  - .xls
+  - .xlsx
+  - .ppt
+  - .pptx
+  - .png
+  - .jpg
+  - .jpeg
+  - .txt
+  - .csv
+  - .zip
+
+TASK_WORKER_COUNT: 2
+TASK_RETRY_LIMIT: 3

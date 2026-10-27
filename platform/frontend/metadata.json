@@ -1,0 +1,6 @@
+{
+  "name": "WFAgent 智能募投管退系统",
+  "description": "全球顶流ToB私募、PE与资管数字化智能全流程管理系统，极致极简轻奢美学设计",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

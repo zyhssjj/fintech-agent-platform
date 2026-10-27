@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+logs/
+.env*
+!.env.example
+.npm-cache/
+src/base/api/openapi.generated.json

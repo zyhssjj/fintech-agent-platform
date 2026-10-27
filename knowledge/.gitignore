@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+
+# Elasticsearch runtime data
+es-data/
+runtime/
+
+# Downloaded embedding and reranking model weights (several GB).
+models/
+
+# OS metadata
+.DS_Store
+._*
+
+# Source documents are managed outside version control by default.
+data/finance/*
+!data/finance/.gitkeep

@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# 模型文件不打包进镜像（运行时挂载卷）
+models/
+
+# 运行时数据不打包进镜像
+runtime/
+data/
+
+# 开发工具文件
+start_macos.sh
+README.md
+*.md
+
+# Git / OS
+.git/
+.gitignore
+.DS_Store
+._*
+
+# Docker 自身
+Dockerfile
+.dockerignore
+docker-compose.yml

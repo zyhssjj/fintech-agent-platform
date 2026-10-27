@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>IK Analyzer 扩展配置（水务知识库）</comment>
+	<!-- 扩展词典：加载水务自定义词典 custom.dic -->
+	<entry key="ext_dict">custom.dic</entry>
+	<!-- 扩展停止词（暂不启用） -->
+	<entry key="ext_stopwords"></entry>
+</properties>

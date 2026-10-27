@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="科技金融企业知识库——航科君富、膜天君富、聚元私募三级目录检索平台">
+  <title>科技金融 · 企业知识库</title>
+  <link rel="stylesheet" href="/static/styles.css?v=catalog-v2-20260914">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#overview" aria-label="返回知识总览">
+        <span class="brand-mark" aria-hidden="true"><span class="brand-monogram">FK</span></span>
+        <span class="brand-copy"><strong>科技金融</strong><small>企业知识库</small></span>
+      </a>
+      <nav class="nav-list" aria-label="主导航">
+        <p class="nav-caption">知识工作台</p>
+        <button class="nav-item active" type="button" data-view="overview"><svg viewBox="0 0 24 24"><path d="M4 13h6V4H4v9Zm0 7h6v-4H4v4Zm10 0h6v-9h-6v9Zm0-16v4h6V4h-6Z"/></svg><span>知识总览</span></button>
+        <button class="nav-item" type="button" data-view="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg><span>智能检索</span></button>
+        <button class="nav-item" type="button" data-view="documents"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H10l2 2h5.5A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-11Z"/></svg><span>文档中心</span></button>
+        <button class="nav-item" type="button" data-view="ingestion"><svg viewBox="0 0 24 24"><path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5M5 15v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-3"/></svg><span>知识入库</span></button>
+        <p class="nav-caption">系统管理</p>
+        <button class="nav-item" type="button" data-view="users"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M3.5 19c.5-4 2.5-6 5.5-6s5 2 5.5 6M16 8.5a3 3 0 0 1 0 5.5m1 1c2.2.6 3.4 2 3.5 4"/></svg><span>用户管理</span></button>
+        <button class="nav-item" type="button" data-view="agents"><svg viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M9 3h6M12 3v4M8.5 12h.01M15.5 12h.01M9 16h6"/></svg><span>智能体配置</span></button>
+        <button class="nav-item" type="button" data-view="models"><svg viewBox="0 0 24 24"><path d="M12 3 4.5 7v10L12 21l7.5-4V7L12 3Z"/><path d="m4.5 7 7.5 4 7.5-4M12 11v10"/></svg><span>模型接入</span></button>
+      </nav>
+      <div class="sidebar-status"><span class="status-dot"></span><div><strong>服务运行中</strong><small>本地索引 · 云端模型</small></div></div>
+    </aside>
+
+    <div class="workspace">
+      <header class="topbar">
+        <button class="icon-button menu-toggle" id="menu-toggle" aria-label="展开导航"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <div class="breadcrumb"><div class="company-switcher" id="company-switcher"><button class="company-trigger" id="company-select" type="button" aria-haspopup="listbox" aria-expanded="false"><span class="company-trigger-main">正在加载平台</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></button><div class="company-menu" id="company-menu" role="listbox" aria-label="选择平台"></div></div><i>/</i><strong id="current-page">知识总览</strong></div>
+        <div class="topbar-actions">
+          <button class="top-search" type="button" data-go="search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg><span>搜索知识</span><kbd>⌘ K</kbd></button>
+          <span class="divider"></span><button class="user-chip" type="button"><span>管</span><b>系统管理员</b><small>本地控制台</small></button>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="view active" id="view-overview">
+          <div class="hero-card"><div class="hero-grid" aria-hidden="true"></div><div class="hero-content"><span class="eyebrow light">FINANCE KNOWLEDGE HUB</span><h1>让企业知识可追溯、可复用</h1><p>聚合航科君富、膜天君富、聚元私募业务资料，让每一次检索都有来源、每一条结论都基于证据。</p><div class="hero-actions"><button class="button white" type="button" data-go="search">开始智能检索</button><button class="button ghost-light" type="button" data-go="ingestion">上传知识文档</button></div></div><div class="hero-nodes" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+          <div class="section-head"><div><span class="eyebrow">KNOWLEDGE OVERVIEW</span><h2>知识资产概览</h2></div><span class="update-time" id="overview-time">正在同步</span></div>
+          <div class="metrics">
+            <article class="metric-card"><span class="metric-icon blue">文</span><div><small>已入库文档</small><strong id="stat-documents">—</strong><em id="stat-platform-label">当前平台业务资料</em></div></article>
+            <article class="metric-card"><span class="metric-icon cyan">域</span><div><small>检索分块</small><strong id="stat-chunks">—</strong><em>基金、项目与公司域</em></div></article>
+            <article class="metric-card"><span class="metric-icon indigo">API</span><div><small>智能体凭证</small><strong id="stat-agents">—</strong><em>独立授权与限流</em></div></article>
+            <article class="metric-card"><span class="metric-icon green">✓</span><div><small>检索引擎</small><strong class="health-text">运行中</strong><em>BM25 + 向量 + 重排</em></div></article>
+          </div>
+          <div class="dashboard-grid">
+            <section class="surface recent-knowledge"><div class="surface-head"><div><h3>最近知识</h3><p>最新进入知识库的可检索内容</p></div><button class="text-link" data-go="documents">查看全部</button></div><div id="recent-list" class="recent-list"><div class="skeleton-row"></div><div class="skeleton-row"></div></div></section>
+            <section class="surface quick-panel"><div class="surface-head"><div><h3>快捷操作</h3><p>常用工作一步直达</p></div></div><div class="quick-grid"><button data-go="search"><span class="quick-icon">⌕</span><b>知识检索</b><small>查制度、问流程</small></button><button data-go="ingestion"><span class="quick-icon">↥</span><b>知识入库</b><small>上传并自动解析</small></button><button data-go="agents"><span class="quick-icon">◇</span><b>接入智能体</b><small>创建 API 凭证</small></button><button data-go="models"><span class="quick-icon">◎</span><b>配置模型</b><small>统一模型能力</small></button></div></section>
+          </div>
+        </section>
+
+        <section class="view" id="view-search">
+          <div class="page-intro"><div><span class="eyebrow">INTELLIGENT RETRIEVAL</span><h1>智能检索</h1><p>在已授权知识域内执行关键词、向量与重排融合检索。</p></div><span class="page-badge">证据可追溯</span></div>
+          <section class="search-stage"><div class="search-box"><textarea id="search-query" rows="2" placeholder="例如：基金设立需要准备哪些材料？"></textarea><button id="search-submit" class="search-submit" type="button"><span>检索</span><svg viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button></div><div class="search-options"><div class="segmented" id="search-mode"><button class="active" data-mode="retrieve" type="button">证据检索</button><button data-mode="answer" type="button">智能回答</button></div><div class="domain-checks" id="search-domains"></div></div></section>
+          <section class="surface results-surface"><div class="surface-head"><div><h3>检索结果</h3><p id="result-summary">输入问题后开始检索</p></div><span class="result-time" id="result-time"></span></div><div id="search-results" class="search-results empty-state"><div class="empty-illustration">⌕</div><h3>从一个科技金融问题开始</h3><p>结果会展示命中的业务域、相关性和原文证据。</p></div></section>
+        </section>
+
+        <section class="view" id="view-documents">
+          <div class="page-intro"><div><span class="eyebrow">DOCUMENT CENTER</span><h1>文档中心</h1><p>当前平台的业务资料与解析分块</p></div><button class="button primary" type="button" data-go="ingestion">＋ 上传文档</button></div>
+          <div class="filter-bar"><div class="mini-search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg><input id="document-filter" placeholder="按名称筛选"></div><div class="catalog-cascade" id="document-domain"></div></div>
+          <section class="surface table-surface"><div class="table-wrap"><table><thead><tr><th>文档名称</th><th>知识域</th><th>内容规模</th><th>状态</th><th>更新时间</th><th>操作</th></tr></thead><tbody id="document-list"><tr><td colspan="6" class="table-empty">正在读取文档…</td></tr></tbody></table></div></section>
+        </section>
+
+        <section class="view" id="view-ingestion">
+          <div class="page-intro"><div><span class="eyebrow">KNOWLEDGE INGESTION</span><h1>知识入库</h1><p>原文解析、切块、向量化与索引刷新在本地流水线内完成。</p></div><span class="page-badge safe">原文不改写</span></div>
+          <div class="ingestion-layout">
+            <section class="surface upload-card directory-panel">
+              <div class="step-title"><span>01</span><div><h3>平台与业务目录</h3></div></div><div class="catalog-platform"><label><span>平台</span><select id="ingestion-company"></select></label></div><div class="catalog-cascade" id="ingestion-domain"></div><div id="catalog-overview" class="catalog-overview"></div><section id="catalog-leaf-detail" class="catalog-leaf-detail" hidden></section>
+            </section>
+            <section class="surface upload-card ingestion-actions-panel">
+              <div class="step-title"><span>02</span><div><h3>选择入库方式</h3><p>语义增强只调整原子结构单元的分组边界</p></div></div><div class="mode-cards" id="ingestion-mode"><button class="active" data-mode="standard" type="button"><span class="radio-dot"></span><div><b>标准入库</b><small>确定性解析与分块，稳定快速</small></div></button><button data-mode="semantic" type="button"><span class="radio-dot"></span><div><b>语义增强入库</b><small>校验覆盖与顺序，失败自动回退</small></div></button></div>
+              <div class="drop-zone" id="drop-zone"><input id="file-input" type="file" multiple accept=".txt,.md,.pdf,.docx"><span class="upload-icon">↥</span><h3>拖放文档到这里，或点击选择</h3><p id="file-hint">支持 PDF、DOCX、MD、TXT，单次可选择多个文件</p><button class="button secondary" type="button">选择文件</button></div><div class="selected-files" id="selected-files"></div><button class="button primary wide" id="ingestion-submit" type="button" disabled>开始入库</button>
+              <div id="ingestion-status" class="job-status" role="status" aria-live="polite" hidden></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="view" id="view-users">
+          <div class="page-intro"><div><span class="eyebrow">USER & ACCESS</span><h1>用户管理</h1><p>管理用户账号，并将多个智能体凭证组合为该用户的数据接口权限。</p></div><button class="button primary" id="user-add" type="button">＋ 新建用户</button></div>
+          <div class="metrics compact"><article class="metric-card"><span class="metric-icon blue">全</span><div><small>全部用户</small><strong id="user-total">—</strong></div></article><article class="metric-card"><span class="metric-icon cyan">管</span><div><small>管理员</small><strong id="user-admins">—</strong></div></article><article class="metric-card"><span class="metric-icon indigo">员</span><div><small>普通用户</small><strong id="user-normal">—</strong></div></article></div>
+          <section class="surface table-surface"><div class="table-wrap"><table><thead><tr><th>用户</th><th>账号</th><th>角色</th><th>绑定权限组合</th><th>接口密钥</th><th>操作</th></tr></thead><tbody id="user-list"><tr><td colspan="6" class="table-empty">正在读取用户…</td></tr></tbody></table></div></section>
+        </section>
+
+        <section class="view" id="view-agents">
+          <div class="page-intro"><div><span class="eyebrow">AGENT INTEGRATION</span><h1>智能体配置</h1><p>为业务智能体创建独立凭证，并按知识域、能力与频率进行隔离。</p></div><button class="button primary" id="agent-add" type="button">＋ 新建凭证</button></div>
+          <div class="api-guide"><article><span>RETRIEVAL API</span><h3>智能体自带大模型</h3><code>POST /api/v1/retrieve</code><p>只返回本地检索后的原文证据，不调用知识库 LLM。</p></article><article><span>ANSWER API</span><h3>知识库完成回答</h3><code>POST /api/v1/answer</code><p>检索证据并调用当前系统模型生成纯文本答案。</p></article></div>
+          <section class="surface table-surface"><div class="table-wrap"><table><thead><tr><th>接入名称</th><th>知识域</th><th>能力</th><th>频率限制</th><th>状态</th><th>操作</th></tr></thead><tbody id="agent-list"><tr><td colspan="6" class="table-empty">正在读取凭证…</td></tr></tbody></table></div></section>
+        </section>
+
+        <section class="view" id="view-models">
+          <div class="page-intro"><div><span class="eyebrow">MODEL ACCESS</span><h1>模型接入</h1><p>集中管理回答、向量化与重排模型；密钥仅在服务端保存并掩码展示。</p></div><span class="page-badge">统一模型网关</span></div><div id="models-list" class="model-grid"><div class="surface skeleton-card"></div><div class="surface skeleton-card"></div></div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <dialog id="user-dialog" class="user-dialog"><form id="user-form"><input name="id" type="hidden"><div class="dialog-head"><div><span class="eyebrow">USER ACCOUNT</span><h2 id="user-dialog-title">新建用户</h2><p>可绑定多个权限组合，用户接口权限按有效凭证自动合并。</p></div><button type="button" data-dialog-close aria-label="关闭">×</button></div><div class="form-grid user-form-grid"><label><span>姓名</span><input name="name" required maxlength="50"></label><label><span>职位</span><input name="position" required maxlength="50"></label><label><span>登录账号</span><input name="username" required maxlength="50"></label><label><span id="user-password-label">初始密码</span><input name="password" type="password" minlength="8" required></label><label><span>角色</span><select name="role"><option value="user">普通用户</option><option value="admin">管理员</option></select></label><section class="user-credential-section full"><div class="user-credential-head"><div><b>绑定权限组合</b><small>支持多选；实际权限为已绑定且有效凭证的知识域并集</small></div><strong id="user-credential-summary">已选择 0 个凭证</strong></div><div id="user-credential-options" class="user-credential-options"></div></section></div><div class="dialog-actions"><button type="button" class="button secondary" data-dialog-close>取消</button><button type="submit" class="button primary" id="user-submit">创建用户</button></div></form></dialog>
+  <dialog id="agent-dialog" class="agent-dialog"><form id="agent-form"><div class="dialog-head"><div><span class="eyebrow">AGENT CREDENTIAL</span><h2>新建接入凭证</h2><p>按平台和业务目录分配知识访问范围，最细可授权到三级事项。</p></div><button type="button" data-dialog-close aria-label="关闭">×</button></div><div class="form-grid agent-form-grid"><label class="full"><span>接入名称</span><input name="name" required maxlength="80" placeholder="例如：投资运营智能体"></label><section class="agent-scope-section full"><div class="agent-scope-head"><div><b>知识域权限</b><small>勾选上级可批量授权全部下级，展开后可精确选择三级目录</small></div><strong id="agent-scope-summary">已选择 0 个三级目录</strong></div><div id="agent-scope-tree" class="agent-scope-tree"></div></section><fieldset><legend>允许能力</legend><label><input type="checkbox" name="retrieve" checked disabled> 证据检索</label><label><input type="checkbox" name="answer"> 智能回答</label></fieldset><label><span>每分钟调用上限</span><input name="rate" type="number" min="1" max="600" value="60"></label></div><div class="dialog-actions"><button type="button" class="button secondary" data-dialog-close>取消</button><button type="submit" class="button primary" id="agent-create-submit" disabled>创建凭证</button></div></form></dialog>
+  <dialog id="key-dialog"><div class="dialog-head"><div><span class="eyebrow">API KEY CREATED</span><h2 id="key-dialog-title">请立即保存 API Key</h2></div><button type="button" data-dialog-close>×</button></div><p class="dialog-note" id="key-dialog-note">出于安全原因，密钥仅显示这一次。</p><div class="key-box"><code id="created-key"></code><button id="copy-key" type="button">复制</button></div><div class="dialog-actions"><button class="button primary" type="button" data-dialog-close>我已保存</button></div></dialog>
+  <dialog id="document-detail-dialog" class="document-detail-dialog"><section class="document-review" aria-label="文档入库审阅"><header class="document-review-head"><div><span class="eyebrow">INGESTION REVIEW</span><h2 id="document-detail-title">文档详情</h2><p id="document-detail-subtitle">正在读取已入库分块</p></div><button id="document-detail-close" class="button secondary" type="button">关闭</button></header><div id="document-detail-meta" class="document-meta-grid"></div><div id="document-integrity" class="document-integrity"></div><div class="document-search-row"><label for="document-detail-query">文档内搜索</label><div class="document-search-controls"><input id="document-detail-query" placeholder="输入关键词后仅查看包含该词的分块"><button id="document-detail-search" class="button secondary" type="button">搜索分块</button><button id="document-detail-full" class="button primary" type="button">查看全文</button></div></div><p id="document-detail-summary" class="document-detail-summary"></p><div id="document-detail-chunks" class="document-chunk-list"></div><footer class="document-pagination"><button id="document-page-prev" class="button secondary" type="button">上一页</button><span id="document-page-label"></span><button id="document-page-next" class="button secondary" type="button">下一页</button><label>跳转至 <input id="document-page-jump" type="number" min="1" value="1"> 页</label><button id="document-page-go" class="button secondary" type="button">跳转</button></footer><p class="document-review-note">此处展示已写入知识库的原始分块，可按分块序号连续阅读，审核解析、切块和入库结果。</p></section></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="/static/catalog-controls.js?v=catalog-v2-20260914"></script>
+  <script src="/static/app.js?v=user-credential-bindings-20260920"></script>
+</body>
+</html>

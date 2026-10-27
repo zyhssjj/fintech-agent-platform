@@ -1,0 +1,43 @@
+/* 基础容器样式 */
+.curved-input-form {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  /* 防止内部元素溢出影响弯曲效果 */
+  will-change: transform;
+}
+
+/* 图标区域 */
+.curved-input-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12px;
+  font-size: 18px;
+}
+
+/* 输入框本身（已通过内联样式控制，此处留空） */
+.curved-input-field {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* 按钮样式（内联已定义，这里补充悬停过渡） */
+.curved-input-button {
+  font-weight: 500;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+/* 响应式支持（可选） */
+@media (max-width: 600px) {
+  .curved-input-form {
+    width: 100% !important;
+    max-width: 450px;
+  }
+}

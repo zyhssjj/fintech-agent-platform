@@ -1,0 +1,8 @@
+# Optional code-only rebuild when the current app dependencies are cached.
+# First: docker tag fintech_knowledge-app fintechkb-deps:local
+FROM fintechkb-deps:local
+WORKDIR /app
+COPY scripts/ scripts/
+COPY static/ static/
+COPY config/ config/
+CMD ["uvicorn", "scripts.app:app", "--host", "0.0.0.0", "--port", "8000"]

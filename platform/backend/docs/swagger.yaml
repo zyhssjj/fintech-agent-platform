@@ -1,0 +1,2213 @@
+basePath: /
+definitions:
+  dto.ChunkUploadResponse:
+    properties:
+      chunk_index:
+        type: integer
+      received:
+        type: boolean
+      upload_id:
+        type: string
+    type: object
+  dto.CompleteUploadResponse:
+    properties:
+      file_id:
+        type: string
+      file_size:
+        type: integer
+      file_url:
+        type: string
+      md5:
+        type: string
+      status:
+        type: string
+    type: object
+  dto.InitUploadRequest:
+    properties:
+      chunk_count:
+        type: integer
+      file_name:
+        type: string
+      file_size:
+        type: integer
+    required:
+    - chunk_count
+    - file_name
+    - file_size
+    type: object
+  dto.InitUploadResponse:
+    properties:
+      chunk_size:
+        type: integer
+      expires_at:
+        type: string
+      upload_id:
+        type: string
+      upload_url:
+        type: string
+    type: object
+  dto.LoginRequest:
+    properties:
+      captcha:
+        type: string
+      captcha_key:
+        type: string
+      password:
+        type: string
+      username:
+        type: string
+    required:
+    - password
+    - username
+    type: object
+  dto.PasswordChangeRequest:
+    properties:
+      confirm_password:
+        type: string
+      new_password:
+        type: string
+      old_password:
+        type: string
+    required:
+    - confirm_password
+    - new_password
+    - old_password
+    type: object
+  dto.RefreshTokenRequest:
+    properties:
+      refresh_token:
+        type: string
+    required:
+    - refresh_token
+    type: object
+  dto.RegisterRequest:
+    properties:
+      confirm_password:
+        type: string
+      email:
+        type: string
+      invitation_code:
+        type: string
+      password:
+        type: string
+      phone:
+        type: string
+      real_name:
+        type: string
+      username:
+        type: string
+    required:
+    - confirm_password
+    - email
+    - password
+    - real_name
+    - username
+    type: object
+  dto.RegisterResponse:
+    properties:
+      email:
+        type: string
+      user_id:
+        type: string
+      username:
+        type: string
+    type: object
+  dto.TokenResponse:
+    properties:
+      access_token:
+        type: string
+      expires_in:
+        type: integer
+      refresh_token:
+        type: string
+      token_type:
+        type: string
+      user_info:
+        $ref: '#/definitions/dto.UserInfoResponse'
+    type: object
+  dto.UserInfoResponse:
+    properties:
+      avatar:
+        type: string
+      departments:
+        items:
+          type: string
+        type: array
+      email:
+        type: string
+      last_login_ip:
+        type: string
+      last_login_time:
+        type: string
+      permissions:
+        items:
+          type: string
+        type: array
+      phone:
+        type: string
+      real_name:
+        type: string
+      roles:
+        items:
+          type: string
+        type: array
+      user_id:
+        type: string
+      username:
+        type: string
+    type: object
+  response.Body:
+    properties:
+      code:
+        type: integer
+      data: {}
+      message:
+        type: string
+      request_id:
+        type: string
+    type: object
+  system.PermissionView:
+    properties:
+      action:
+        type: string
+      description:
+        type: string
+      id:
+        type: integer
+      perm_code:
+        type: string
+      perm_name:
+        type: string
+      resource:
+        type: string
+    type: object
+  system.RoleView:
+    properties:
+      description:
+        type: string
+      id:
+        type: integer
+      permissions:
+        items:
+          type: string
+        type: array
+      role_code:
+        type: string
+      role_name:
+        type: string
+      status:
+        type: string
+    type: object
+  system.replaceCodesRequest:
+    properties:
+      codes:
+        items:
+          type: string
+        type: array
+    type: object
+  task.AsyncTask:
+    properties:
+      create_time:
+        type: string
+      error_message:
+        type: string
+      finished_at:
+        type: string
+      id:
+        type: integer
+      input_params:
+        type: object
+      is_deleted:
+        type: boolean
+      output_result:
+        type: object
+      progress:
+        type: integer
+      retry_count:
+        type: integer
+      retry_limit:
+        type: integer
+      started_at:
+        type: string
+      status:
+        type: string
+      task_id:
+        type: string
+      task_type:
+        type: string
+      update_time:
+        type: string
+    type: object
+  task.submitRequest:
+    properties:
+      payload:
+        additionalProperties: {}
+        type: object
+      task_type:
+        type: string
+    required:
+    - task_type
+    type: object
+info:
+  contact: {}
+  description: WFAgent technology finance system base API.
+  title: WFAgent Base API
+  version: 0.1.0
+paths:
+  /healthz:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  additionalProperties:
+                    type: string
+                  type: object
+              type: object
+      summary: Health check
+      tags:
+      - Base
+  /v1/agents:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List agents
+      tags:
+      - Agent
+  /v1/agents/{agent_id}:
+    get:
+      parameters:
+      - description: Agent ID
+        in: path
+        name: agent_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Get agent detail
+      tags:
+      - Agent
+  /v1/agents/{agent_id}/invoke:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Agent ID
+        in: path
+        name: agent_id
+        required: true
+        type: string
+      - description: Invoke payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Invoke agent
+      tags:
+      - Agent
+  /v1/agents/communication/emails:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List emails
+      tags:
+      - Agent
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Email payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create email
+      tags:
+      - Agent
+  /v1/agents/communication/templates:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List email templates
+      tags:
+      - Agent
+  /v1/agents/cooperation/files/{file_id}/versions:
+    get:
+      parameters:
+      - description: File ID
+        in: path
+        name: file_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List file versions
+      tags:
+      - Agent
+  /v1/agents/cooperation/meeting-minutes:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Meeting minutes payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create meeting minutes
+      tags:
+      - Agent
+  /v1/agents/customer/notifications:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Notification payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create customer notification
+      tags:
+      - Agent
+  /v1/agents/customer/todos:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List customer todos
+      tags:
+      - Agent
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Todo payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create customer todo
+      tags:
+      - Agent
+  /v1/agents/customer/todos/{todo_id}/status:
+    patch:
+      consumes:
+      - application/json
+      parameters:
+      - description: Todo ID
+        in: path
+        name: todo_id
+        required: true
+        type: string
+      - description: Status payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Update customer todo status
+      tags:
+      - Agent
+  /v1/agents/knowledge/competitor-intelligence:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Get competitor intelligence
+      tags:
+      - Agent
+  /v1/agents/knowledge/documents:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Document payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Upload knowledge document
+      tags:
+      - Agent
+  /v1/agents/knowledge/search:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Search knowledge base
+      tags:
+      - Agent
+  /v1/auth/login:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Login credentials
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/dto.LoginRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  $ref: '#/definitions/dto.TokenResponse'
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/response.Body'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+      summary: User login
+      tags:
+      - Auth
+  /v1/auth/logout:
+    post:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  additionalProperties:
+                    type: string
+                  type: object
+              type: object
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Logout current user
+      tags:
+      - Auth
+  /v1/auth/me:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  $ref: '#/definitions/dto.UserInfoResponse'
+              type: object
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Get current user profile
+      tags:
+      - Auth
+  /v1/auth/password:
+    put:
+      consumes:
+      - application/json
+      parameters:
+      - description: Password change request
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/dto.PasswordChangeRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  additionalProperties:
+                    type: string
+                  type: object
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/response.Body'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Change current user password
+      tags:
+      - Auth
+  /v1/auth/refresh:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Refresh token
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/dto.RefreshTokenRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  $ref: '#/definitions/dto.TokenResponse'
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/response.Body'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+      summary: Refresh access token
+      tags:
+      - Auth
+  /v1/auth/register:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Register request
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/dto.RegisterRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  $ref: '#/definitions/dto.RegisterResponse'
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/response.Body'
+      summary: Register user
+      tags:
+      - Auth
+  /v1/exit/executions:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Execution payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create exit execution
+      tags:
+      - Exit
+  /v1/exit/executions/{execution_id}/distribution:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Execution ID
+        in: path
+        name: execution_id
+        required: true
+        type: string
+      - description: Distribution payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create exit distribution
+      tags:
+      - Exit
+  /v1/exit/executions/{execution_id}/progress:
+    patch:
+      consumes:
+      - application/json
+      parameters:
+      - description: Execution ID
+        in: path
+        name: execution_id
+        required: true
+        type: string
+      - description: Progress payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Update exit execution progress
+      tags:
+      - Exit
+  /v1/exit/fund-meetings:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List fund meetings
+      tags:
+      - Exit
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Meeting payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create fund meeting
+      tags:
+      - Exit
+  /v1/exit/fund-meetings/{meeting_id}/vote:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Meeting ID
+        in: path
+        name: meeting_id
+        required: true
+        type: string
+      - description: Vote payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Vote fund meeting
+      tags:
+      - Exit
+  /v1/exit/lp-disclosures:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List LP disclosures
+      tags:
+      - Exit
+  /v1/exit/lp-disclosures/generate:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Disclosure payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Generate LP disclosure
+      tags:
+      - Exit
+  /v1/exit/opportunities:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List exit opportunities
+      tags:
+      - Exit
+  /v1/exit/projects/{project_id}/analysis:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Project ID
+        in: path
+        name: project_id
+        required: true
+        type: string
+      - description: Analysis payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create exit analysis
+      tags:
+      - Exit
+  /v1/fundraising/compliance/check:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Compliance payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Check fundraising compliance
+      tags:
+      - Fundraising
+  /v1/fundraising/funds:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List funds
+      tags:
+      - Fundraising
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Fund payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create fund
+      tags:
+      - Fundraising
+  /v1/fundraising/funds/{fund_id}/compliance-history:
+    get:
+      parameters:
+      - description: Fund ID
+        in: path
+        name: fund_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List fund compliance history
+      tags:
+      - Fundraising
+  /v1/fundraising/funds/{fund_id}/compliance-report:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Fund ID
+        in: path
+        name: fund_id
+        required: true
+        type: string
+      - description: Report payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create fund compliance report
+      tags:
+      - Fundraising
+  /v1/fundraising/funds/{fund_id}/distributions:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Fund ID
+        in: path
+        name: fund_id
+        required: true
+        type: string
+      - description: Distribution payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create fund distribution
+      tags:
+      - Fundraising
+  /v1/fundraising/funds/{fund_id}/subscribe:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Fund ID
+        in: path
+        name: fund_id
+        required: true
+        type: string
+      - description: Subscription payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Subscribe fund
+      tags:
+      - Fundraising
+  /v1/fundraising/lps:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List LPs
+      tags:
+      - Fundraising
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: LP payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create LP
+      tags:
+      - Fundraising
+  /v1/fundraising/lps/{lp_id}/profile:
+    get:
+      parameters:
+      - description: LP ID
+        in: path
+        name: lp_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Get LP profile
+      tags:
+      - Fundraising
+  /v1/fundraising/lps/match:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Match payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Match LPs
+      tags:
+      - Fundraising
+  /v1/investment/decisions:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Decision payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create investment decision
+      tags:
+      - Investment
+  /v1/investment/decisions/{decision_id}/vote:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Decision ID
+        in: path
+        name: decision_id
+        required: true
+        type: string
+      - description: Vote payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Vote investment decision
+      tags:
+      - Investment
+  /v1/investment/due-diligence/{dd_id}/complete:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Due diligence ID
+        in: path
+        name: dd_id
+        required: true
+        type: string
+      - description: Completion payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Complete due diligence
+      tags:
+      - Investment
+  /v1/investment/due-diligence/{dd_id}/progress:
+    patch:
+      consumes:
+      - application/json
+      parameters:
+      - description: Due diligence ID
+        in: path
+        name: dd_id
+        required: true
+        type: string
+      - description: Progress payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Update due diligence progress
+      tags:
+      - Investment
+  /v1/investment/executions:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Execution payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create investment execution
+      tags:
+      - Investment
+  /v1/investment/projects:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List investment projects
+      tags:
+      - Investment
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Project payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create investment project
+      tags:
+      - Investment
+  /v1/investment/projects/{project_id}/due-diligence:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Project ID
+        in: path
+        name: project_id
+        required: true
+        type: string
+      - description: Due diligence payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create due diligence task
+      tags:
+      - Investment
+  /v1/investment/projects/{project_id}/terms:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Project ID
+        in: path
+        name: project_id
+        required: true
+        type: string
+      - description: Terms payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create investment terms
+      tags:
+      - Investment
+  /v1/investment/projects/filter:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Filter payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Filter investment projects
+      tags:
+      - Investment
+  /v1/investment/valuation/dcf:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: DCF payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Calculate DCF valuation
+      tags:
+      - Investment
+  /v1/meetings:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Meeting payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create meeting
+      tags:
+      - Meeting
+  /v1/meetings/{meeting_id}:
+    delete:
+      parameters:
+      - description: Meeting ID
+        in: path
+        name: meeting_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "204":
+          description: No Content
+      security:
+      - BearerAuth: []
+      summary: Delete meeting
+      tags:
+      - Meeting
+    get:
+      parameters:
+      - description: Meeting ID
+        in: path
+        name: meeting_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Get meeting
+      tags:
+      - Meeting
+  /v1/meetings/{meeting_id}/action-items:
+    get:
+      parameters:
+      - description: Meeting ID
+        in: path
+        name: meeting_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List meeting action items
+      tags:
+      - Meeting
+  /v1/meetings/{meeting_id}/transcribe:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Meeting ID
+        in: path
+        name: meeting_id
+        required: true
+        type: string
+      - description: Transcription payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Transcribe meeting
+      tags:
+      - Meeting
+  /v1/meetings/{meeting_id}/upload:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Meeting ID
+        in: path
+        name: meeting_id
+        required: true
+        type: string
+      - description: Upload payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Upload meeting file
+      tags:
+      - Meeting
+  /v1/projects/{project_id}/board:
+    get:
+      parameters:
+      - description: Project ID
+        in: path
+        name: project_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Get project board
+      tags:
+      - Project
+  /v1/projects/{project_id}/board/votes:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Project ID
+        in: path
+        name: project_id
+        required: true
+        type: string
+      - description: Vote payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create project board vote
+      tags:
+      - Project
+  /v1/projects/{project_id}/milestones:
+    get:
+      parameters:
+      - description: Project ID
+        in: path
+        name: project_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List project milestones
+      tags:
+      - Project
+  /v1/projects/{project_id}/operations:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Project ID
+        in: path
+        name: project_id
+        required: true
+        type: string
+      - description: Operation payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create project operation
+      tags:
+      - Project
+  /v1/projects/{project_id}/reports:
+    get:
+      parameters:
+      - description: Project ID
+        in: path
+        name: project_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List project reports
+      tags:
+      - Project
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Project ID
+        in: path
+        name: project_id
+        required: true
+        type: string
+      - description: Report payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Create project report
+      tags:
+      - Project
+  /v1/projects/{project_id}/risk-alerts:
+    get:
+      parameters:
+      - description: Project ID
+        in: path
+        name: project_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List project risk alerts
+      tags:
+      - Project
+  /v1/projects/{project_id}/risk-alerts/{alert_id}:
+    patch:
+      consumes:
+      - application/json
+      parameters:
+      - description: Project ID
+        in: path
+        name: project_id
+        required: true
+        type: string
+      - description: Alert ID
+        in: path
+        name: alert_id
+        required: true
+        type: string
+      - description: Risk alert payload
+        in: body
+        name: body
+        required: true
+        schema:
+          additionalProperties: true
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Update project risk alert
+      tags:
+      - Project
+  /v1/projects/post-investment:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: List post-investment projects
+      tags:
+      - Project
+  /v1/system/permissions:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  items:
+                    $ref: '#/definitions/system.PermissionView'
+                  type: array
+              type: object
+      security:
+      - BearerAuth: []
+      summary: List assignable permissions
+      tags:
+      - System
+  /v1/system/roles:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  items:
+                    $ref: '#/definitions/system.RoleView'
+                  type: array
+              type: object
+      security:
+      - BearerAuth: []
+      summary: List roles with assigned permissions
+      tags:
+      - System
+  /v1/system/roles/{role_id}/permissions:
+    put:
+      consumes:
+      - application/json
+      parameters:
+      - description: Role ID
+        in: path
+        name: role_id
+        required: true
+        type: integer
+      - description: Permission codes
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/system.replaceCodesRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Replace all permissions for a role
+      tags:
+      - System
+  /v1/system/users/{user_id}/roles:
+    put:
+      consumes:
+      - application/json
+      parameters:
+      - description: User ID
+        in: path
+        name: user_id
+        required: true
+        type: integer
+      - description: Role codes
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/system.replaceCodesRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Replace all roles for a user
+      tags:
+      - System
+  /v1/tasks:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Task request
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/task.submitRequest'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  $ref: '#/definitions/task.AsyncTask'
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/response.Body'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Submit async task
+      tags:
+      - Tasks
+  /v1/tasks/{task_id}:
+    get:
+      parameters:
+      - description: Task ID
+        in: path
+        name: task_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  $ref: '#/definitions/task.AsyncTask'
+              type: object
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Query async task
+      tags:
+      - Tasks
+  /v1/tasks/{task_id}/cancel:
+    post:
+      parameters:
+      - description: Task ID
+        in: path
+        name: task_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  $ref: '#/definitions/task.AsyncTask'
+              type: object
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Cancel async task
+      tags:
+      - Tasks
+  /v1/tasks/{task_id}/events:
+    get:
+      parameters:
+      - description: Task ID
+        in: path
+        name: task_id
+        required: true
+        type: string
+      produces:
+      - text/event-stream
+      responses:
+        "200":
+          description: SSE stream
+          schema:
+            type: string
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Stream async task progress
+      tags:
+      - Tasks
+  /v1/upload/{upload_id}/chunk:
+    post:
+      consumes:
+      - multipart/form-data
+      parameters:
+      - description: Upload ID
+        in: path
+        name: upload_id
+        required: true
+        type: string
+      - description: Chunk index
+        in: formData
+        name: chunk_index
+        required: true
+        type: integer
+      - description: File chunk
+        in: formData
+        name: file
+        required: true
+        type: file
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  $ref: '#/definitions/dto.ChunkUploadResponse'
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/response.Body'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Upload file chunk
+      tags:
+      - Upload
+  /v1/upload/{upload_id}/complete:
+    post:
+      parameters:
+      - description: Upload ID
+        in: path
+        name: upload_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  $ref: '#/definitions/dto.CompleteUploadResponse'
+              type: object
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Complete chunked upload
+      tags:
+      - Upload
+  /v1/upload/init:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Upload metadata
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/dto.InitUploadRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Body'
+            - properties:
+                data:
+                  $ref: '#/definitions/dto.InitUploadResponse'
+              type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/response.Body'
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/response.Body'
+      security:
+      - BearerAuth: []
+      summary: Initialize chunked upload
+      tags:
+      - Upload
+securityDefinitions:
+  BearerAuth:
+    description: Type "Bearer " followed by a valid access token.
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

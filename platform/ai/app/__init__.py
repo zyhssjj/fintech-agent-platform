@@ -1,0 +1,2 @@
+"""FinTechBase AI service package."""
+

@@ -1,0 +1,5445 @@
+{
+  "version": 2,
+  "source_file": "V2-知识库目录搭建-3个平台.xlsx",
+  "source_sha256": "5a45d879d5ef36ea02568c2a20d45af94395d3e5e5543c0a9fc6ad762a44925b",
+  "platforms": [
+    {
+      "code": "beijing_hangke",
+      "name": "航科君富",
+      "type": "平台",
+      "leaves": [
+        {
+          "leaf_id": "beijing_hangke-428d93afa36f8062",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "基金产品设计",
+          "domain_path": "基金层面/基金设立/基金产品设计",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金方案"
+          ],
+          "file_items": [
+            {
+              "name": "基金方案",
+              "classification_standard": "基金",
+              "source_row": 4
+            }
+          ],
+          "source_rows": [
+            4
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-ed0f84753a2b85d5",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "工商注册-会商",
+          "domain_path": "基金层面/基金设立/工商注册-会商",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "地区+基金\n【XXX省-XX市-XX基金小镇-XXX基金】"
+          ],
+          "related_files": [
+            "每个地方会商要求的材料不一样，可以【XXX省-XX市-XX基金小镇-XXX基金】为划分标准统一打包会商资料，便于后面直接调取会商资料。\n如有变化，更新替代。"
+          ],
+          "file_items": [
+            {
+              "name": "每个地方会商要求的材料不一样，可以【XXX省-XX市-XX基金小镇-XXX基金】为划分标准统一打包会商资料，便于后面直接调取会商资料。\n如有变化，更新替代。",
+              "classification_standard": "地区+基金\n【XXX省-XX市-XX基金小镇-XXX基金】",
+              "source_row": 5
+            }
+          ],
+          "source_rows": [
+            5
+          ],
+          "classification_standard": "地区+基金\n【XXX省-XX市-XX基金小镇-XXX基金】"
+        },
+        {
+          "leaf_id": "beijing_hangke-348f04045c691581",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "工商注册-工商登记",
+          "domain_path": "基金层面/基金设立/工商注册-工商登记",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "企业名称预先核准通知书",
+            "营业执照/合伙企业营业执照",
+            "工商设立（变更）登记全套材料、工商底档",
+            "银行基本户/募集户/托管户开户文件",
+            "税务登记及增值税纳税人资格认定文件（如有）"
+          ],
+          "file_items": [
+            {
+              "name": "企业名称预先核准通知书",
+              "classification_standard": "基金",
+              "source_row": 6
+            },
+            {
+              "name": "营业执照/合伙企业营业执照",
+              "classification_standard": "基金",
+              "source_row": 7
+            },
+            {
+              "name": "工商设立（变更）登记全套材料、工商底档",
+              "classification_standard": "基金",
+              "source_row": 8
+            },
+            {
+              "name": "银行基本户/募集户/托管户开户文件",
+              "classification_standard": "基金",
+              "source_row": 9
+            },
+            {
+              "name": "税务登记及增值税纳税人资格认定文件（如有）",
+              "classification_standard": "基金",
+              "source_row": 10
+            }
+          ],
+          "source_rows": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-a1cb56255859d52e",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "基金募集",
+          "domain_path": "基金层面/基金设立/基金募集",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "授权委托书（授权经办人身份证复印件、投资人营业执照复印件）",
+            "投资者基本信息表",
+            "投资者适当性管理文件",
+            "私募基金投资者风险识别能力和风险承担能力评估问卷",
+            "投资者风险类型告知书、投资者确认函（风险不匹配时填写）",
+            "合格投资者证明材料（财务报表、个人收入证明等）",
+            "基金风险揭示录音录像话术（普通投资者）",
+            "反洗钱承诺书",
+            "风险揭示书与声明承诺书",
+            "基金投资者认购信息告知书",
+            "投资者认购信息表",
+            "基金回访确认函",
+            "保密约定",
+            "查询账号相关信息的通知",
+            "合格投资者承诺书",
+            "机构税收居民身份文件",
+            "基金风险等级评估确认书"
+          ],
+          "file_items": [
+            {
+              "name": "授权委托书（授权经办人身份证复印件、投资人营业执照复印件）",
+              "classification_standard": "基金",
+              "source_row": 11
+            },
+            {
+              "name": "投资者基本信息表",
+              "classification_standard": "基金",
+              "source_row": 12
+            },
+            {
+              "name": "投资者适当性管理文件",
+              "classification_standard": "基金",
+              "source_row": 13
+            },
+            {
+              "name": "私募基金投资者风险识别能力和风险承担能力评估问卷",
+              "classification_standard": "基金",
+              "source_row": 14
+            },
+            {
+              "name": "投资者风险类型告知书、投资者确认函（风险不匹配时填写）",
+              "classification_standard": "基金",
+              "source_row": 15
+            },
+            {
+              "name": "合格投资者证明材料（财务报表、个人收入证明等）",
+              "classification_standard": "基金",
+              "source_row": 16
+            },
+            {
+              "name": "基金风险揭示录音录像话术（普通投资者）",
+              "classification_standard": "基金",
+              "source_row": 17
+            },
+            {
+              "name": "反洗钱承诺书",
+              "classification_standard": "基金",
+              "source_row": 18
+            },
+            {
+              "name": "风险揭示书与声明承诺书",
+              "classification_standard": "基金",
+              "source_row": 19
+            },
+            {
+              "name": "基金投资者认购信息告知书",
+              "classification_standard": "基金",
+              "source_row": 20
+            },
+            {
+              "name": "投资者认购信息表",
+              "classification_standard": "基金",
+              "source_row": 21
+            },
+            {
+              "name": "基金回访确认函",
+              "classification_standard": "基金",
+              "source_row": 22
+            },
+            {
+              "name": "保密约定",
+              "classification_standard": "基金",
+              "source_row": 23
+            },
+            {
+              "name": "查询账号相关信息的通知",
+              "classification_standard": "基金",
+              "source_row": 24
+            },
+            {
+              "name": "合格投资者承诺书",
+              "classification_standard": "基金",
+              "source_row": 25
+            },
+            {
+              "name": "机构税收居民身份文件",
+              "classification_standard": "基金",
+              "source_row": 26
+            },
+            {
+              "name": "基金风险等级评估确认书",
+              "classification_standard": "基金",
+              "source_row": 27
+            }
+          ],
+          "source_rows": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-87cf833bb5b727cd",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "基金产品备案",
+          "domain_path": "基金层面/基金设立/基金产品备案",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "合伙人会议决议-中基协版本",
+            "基金合同（合伙协议、合伙协议补充协议、契约型基金合同等）",
+            "首期实缴出资缴付告知函",
+            "基金投资者出资情况说明函",
+            "基金投资者说明函",
+            "私募投资基金备案承诺函",
+            "产品结构图",
+            "招募说明书",
+            "关于投资者资金来源为自有资金的说明函",
+            "关联交易承诺函（如有）",
+            "托管协议",
+            "备案信息变更/重大事项更新申请材料",
+            "委托管理协议（管理人、基金主体分离）",
+            "投资者明细及实缴出资证明",
+            "私募投资基金备案函"
+          ],
+          "file_items": [
+            {
+              "name": "合伙人会议决议-中基协版本",
+              "classification_standard": "基金",
+              "source_row": 28
+            },
+            {
+              "name": "基金合同（合伙协议、合伙协议补充协议、契约型基金合同等）",
+              "classification_standard": "基金",
+              "source_row": 29
+            },
+            {
+              "name": "首期实缴出资缴付告知函",
+              "classification_standard": "基金",
+              "source_row": 30
+            },
+            {
+              "name": "基金投资者出资情况说明函",
+              "classification_standard": "基金",
+              "source_row": 31
+            },
+            {
+              "name": "基金投资者说明函",
+              "classification_standard": "基金",
+              "source_row": 32
+            },
+            {
+              "name": "私募投资基金备案承诺函",
+              "classification_standard": "基金",
+              "source_row": 33
+            },
+            {
+              "name": "产品结构图",
+              "classification_standard": "基金",
+              "source_row": 34
+            },
+            {
+              "name": "招募说明书",
+              "classification_standard": "基金",
+              "source_row": 35
+            },
+            {
+              "name": "关于投资者资金来源为自有资金的说明函",
+              "classification_standard": "基金",
+              "source_row": 36
+            },
+            {
+              "name": "关联交易承诺函（如有）",
+              "classification_standard": "基金",
+              "source_row": 37
+            },
+            {
+              "name": "托管协议",
+              "classification_standard": "基金",
+              "source_row": 38
+            },
+            {
+              "name": "备案信息变更/重大事项更新申请材料",
+              "classification_standard": "基金",
+              "source_row": 39
+            },
+            {
+              "name": "委托管理协议（管理人、基金主体分离）",
+              "classification_standard": "基金",
+              "source_row": 40
+            },
+            {
+              "name": "投资者明细及实缴出资证明",
+              "classification_standard": "基金",
+              "source_row": 41
+            },
+            {
+              "name": "私募投资基金备案函",
+              "classification_standard": "基金",
+              "source_row": 42
+            }
+          ],
+          "source_rows": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-bd988f08e6d9e15a",
+          "level1": "基金层面",
+          "level2": "基金运营",
+          "level3": "信息披露",
+          "domain_path": "基金层面/基金运营/信息披露",
+          "level2_definition": "【基金运营】基金完成备案后，在基金存续期间进行的日常合规管理、投资运作、信息披露等工作",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "AMBERS系统基金季报、年度监测报告",
+            "CRS报告及管理人报告",
+            "信息备份系统基金半年报/年报申报",
+            "政府引导基金系统年度运营报告",
+            "财政部政府引导基金年度运营报告",
+            "LP/及其他政府部门额外要求的报告（季度/半年度/年度基金运营报告）",
+            "临时报告",
+            "投资者沟通记录（如有）（2026.9.1新规要求基金管理人办理投资者信息披露咨询机制）"
+          ],
+          "file_items": [
+            {
+              "name": "AMBERS系统基金季报、年度监测报告",
+              "classification_standard": "基金",
+              "source_row": 43
+            },
+            {
+              "name": "CRS报告及管理人报告",
+              "classification_standard": "基金",
+              "source_row": 44
+            },
+            {
+              "name": "信息备份系统基金半年报/年报申报",
+              "classification_standard": "基金",
+              "source_row": 45
+            },
+            {
+              "name": "政府引导基金系统年度运营报告",
+              "classification_standard": "基金",
+              "source_row": 46
+            },
+            {
+              "name": "财政部政府引导基金年度运营报告",
+              "classification_standard": "基金",
+              "source_row": 47
+            },
+            {
+              "name": "LP/及其他政府部门额外要求的报告（季度/半年度/年度基金运营报告）",
+              "classification_standard": "基金",
+              "source_row": 48
+            },
+            {
+              "name": "临时报告",
+              "classification_standard": "基金",
+              "source_row": 49
+            },
+            {
+              "name": "投资者沟通记录（如有）（2026.9.1新规要求基金管理人办理投资者信息披露咨询机制）",
+              "classification_standard": "基金",
+              "source_row": 50
+            }
+          ],
+          "source_rows": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-a8b1a4cf69eab528",
+          "level1": "基金层面",
+          "level2": "基金运营",
+          "level3": "基金估值",
+          "domain_path": "基金层面/基金运营/基金估值",
+          "level2_definition": "【基金运营】基金完成备案后，在基金存续期间进行的日常合规管理、投资运作、信息披露等工作",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金财务报表、审计报告",
+            "基金估值报告"
+          ],
+          "file_items": [
+            {
+              "name": "基金财务报表、审计报告",
+              "classification_standard": "基金",
+              "source_row": 51
+            },
+            {
+              "name": "基金估值报告",
+              "classification_standard": "基金",
+              "source_row": 52
+            }
+          ],
+          "source_rows": [
+            51,
+            52
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-e54781675a3e71ce",
+          "level1": "基金层面",
+          "level2": "基金运营",
+          "level3": "基金重大变更",
+          "domain_path": "基金层面/基金运营/基金重大变更",
+          "level2_definition": "【基金运营】基金完成备案后，在基金存续期间进行的日常合规管理、投资运作、信息披露等工作",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "合伙人会议系列文件\n例如：\n(1)委派代表变更，需要整理合伙协议之补充协议、合伙人会议决议、工商变更资料等\n(2)基金份额转让，需要整理各次会议纪要、评估报告（估值报告）、合伙人会议决议、份额转让协议、银行回单、工商变更资料等+涉及后续基金重新募集备案对应文件按照要求归类即可"
+          ],
+          "file_items": [
+            {
+              "name": "合伙人会议系列文件\n例如：\n(1)委派代表变更，需要整理合伙协议之补充协议、合伙人会议决议、工商变更资料等\n(2)基金份额转让，需要整理各次会议纪要、评估报告（估值报告）、合伙人会议决议、份额转让协议、银行回单、工商变更资料等+涉及后续基金重新募集备案对应文件按照要求归类即可",
+              "classification_standard": "基金",
+              "source_row": 53
+            }
+          ],
+          "source_rows": [
+            53
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-d226f50aa802605b",
+          "level1": "基金层面",
+          "level2": "清算注销",
+          "level3": "清算启动",
+          "domain_path": "基金层面/清算注销/清算启动",
+          "level2_definition": "【清算注销】基金合同终止后，对基金财产进行清算、分配，并完成在基金业协会的清算备案及在工商、税务等部门的注销登记手续",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金清算方案",
+            "基金清算合伙人会议（启动清算）"
+          ],
+          "file_items": [
+            {
+              "name": "基金清算方案",
+              "classification_standard": "基金",
+              "source_row": 54
+            },
+            {
+              "name": "基金清算合伙人会议（启动清算）",
+              "classification_standard": "基金",
+              "source_row": 55
+            }
+          ],
+          "source_rows": [
+            54,
+            55
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-f047175d1c62348f",
+          "level1": "基金层面",
+          "level2": "清算注销",
+          "level3": "清算执行",
+          "domain_path": "基金层面/清算注销/清算执行",
+          "level2_definition": "【清算注销】基金合同终止后，对基金财产进行清算、分配，并完成在基金业协会的清算备案及在工商、税务等部门的注销登记手续",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金清算报告（如有）",
+            "基金清算财产分配合伙人会议（剩余财产分配方案+启动工商注销）"
+          ],
+          "file_items": [
+            {
+              "name": "基金清算报告（如有）",
+              "classification_standard": "基金",
+              "source_row": 56
+            },
+            {
+              "name": "基金清算财产分配合伙人会议（剩余财产分配方案+启动工商注销）",
+              "classification_standard": "基金",
+              "source_row": 57
+            }
+          ],
+          "source_rows": [
+            56,
+            57
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-2fa362bf47742aa8",
+          "level1": "基金层面",
+          "level2": "清算注销",
+          "level3": "注销登记",
+          "domain_path": "基金层面/清算注销/注销登记",
+          "level2_definition": "【清算注销】基金合同终止后，对基金财产进行清算、分配，并完成在基金业协会的清算备案及在工商、税务等部门的注销登记手续",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金清算公告",
+            "基金工商注销登记材料",
+            "税务注销/清税证明",
+            "银行账户/托管户销户证明"
+          ],
+          "file_items": [
+            {
+              "name": "基金清算公告",
+              "classification_standard": "基金",
+              "source_row": 58
+            },
+            {
+              "name": "基金工商注销登记材料",
+              "classification_standard": "基金",
+              "source_row": 59
+            },
+            {
+              "name": "税务注销/清税证明",
+              "classification_standard": "基金",
+              "source_row": 60
+            },
+            {
+              "name": "银行账户/托管户销户证明",
+              "classification_standard": "基金",
+              "source_row": 61
+            }
+          ],
+          "source_rows": [
+            58,
+            59,
+            60,
+            61
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-931d480a59439cff",
+          "level1": "基金层面",
+          "level2": "其他",
+          "level3": "基金自查",
+          "domain_path": "基金层面/其他/基金自查",
+          "level2_definition": "/",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金自查报告"
+          ],
+          "file_items": [
+            {
+              "name": "基金自查报告",
+              "classification_standard": "基金",
+              "source_row": 62
+            }
+          ],
+          "source_rows": [
+            62
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-f4753d17a2e8d185",
+          "level1": "基金层面",
+          "level2": "其他",
+          "level3": "基金持续出资",
+          "domain_path": "基金层面/其他/基金持续出资",
+          "level2_definition": "/",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "出资证明函"
+          ],
+          "file_items": [
+            {
+              "name": "出资证明函",
+              "classification_standard": "基金",
+              "source_row": 63
+            }
+          ],
+          "source_rows": [
+            63
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-68b61d1d3a7ab5f2",
+          "level1": "项目层面",
+          "level2": "投前阶段",
+          "level3": "项目资料及立项",
+          "domain_path": "项目层面/投前阶段/项目资料及立项",
+          "level2_definition": "【投前】从项目筛选、初步尽调、立项到正式尽职调查、签署投资条款清单的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "项目资料（项目介绍、商业计划书、行业研究等）",
+            "【管理人层面】立项系列文件（立项报告、立项申请表、会议纪要、会议决议、会议通知）"
+          ],
+          "file_items": [
+            {
+              "name": "项目资料（项目介绍、商业计划书、行业研究等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 64
+            },
+            {
+              "name": "【管理人层面】立项系列文件（立项报告、立项申请表、会议纪要、会议决议、会议通知）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 65
+            }
+          ],
+          "source_rows": [
+            64,
+            65
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_hangke-8bbd531b85935a25",
+          "level1": "项目层面",
+          "level2": "投前阶段",
+          "level3": "投资尽调",
+          "domain_path": "项目层面/投前阶段/投资尽调",
+          "level2_definition": "【投前】从项目筛选、初步尽调、立项到正式尽职调查、签署投资条款清单的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "三方服务询价函件及回函",
+            "三方服务委托协议（财务尽调服务协议、法律尽调服务协议、业务尽调服务协议、资产评估委托合同）",
+            "尽调资料清单及企业提供的相关数据资料",
+            "业务尽职调查报告",
+            "财务尽职调查报告",
+            "法律尽职调查报告",
+            "资产评估报告",
+            "尽调访谈纪要",
+            "尽调问题清单及建议整改方案",
+            "保密协议"
+          ],
+          "file_items": [
+            {
+              "name": "三方服务询价函件及回函",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 66
+            },
+            {
+              "name": "三方服务委托协议（财务尽调服务协议、法律尽调服务协议、业务尽调服务协议、资产评估委托合同）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 67
+            },
+            {
+              "name": "尽调资料清单及企业提供的相关数据资料",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 68
+            },
+            {
+              "name": "业务尽职调查报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 69
+            },
+            {
+              "name": "财务尽职调查报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 70
+            },
+            {
+              "name": "法律尽职调查报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 71
+            },
+            {
+              "name": "资产评估报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 72
+            },
+            {
+              "name": "尽调访谈纪要",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 73
+            },
+            {
+              "name": "尽调问题清单及建议整改方案",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 74
+            },
+            {
+              "name": "保密协议",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 75
+            }
+          ],
+          "source_rows": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_hangke-f7443d8f60d7371b",
+          "level1": "项目层面",
+          "level2": "投前阶段",
+          "level3": "投前谈判",
+          "domain_path": "项目层面/投前阶段/投前谈判",
+          "level2_definition": "【投前】从项目筛选、初步尽调、立项到正式尽职调查、签署投资条款清单的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "投资方案",
+            "投资意向书/投资框架协议",
+            "与LP、标的公司等就本次投资进行商务磋商的会议纪要",
+            "投资备忘录/投资条款清单"
+          ],
+          "file_items": [
+            {
+              "name": "投资方案",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 76
+            },
+            {
+              "name": "投资意向书/投资框架协议",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 77
+            },
+            {
+              "name": "与LP、标的公司等就本次投资进行商务磋商的会议纪要",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 78
+            },
+            {
+              "name": "投资备忘录/投资条款清单",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 79
+            }
+          ],
+          "source_rows": [
+            76,
+            77,
+            78,
+            79
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_hangke-d94320e3f9af123c",
+          "level1": "项目层面",
+          "level2": "投中阶段",
+          "level3": "投资决策",
+          "domain_path": "项目层面/投中阶段/投资决策",
+          "level2_definition": "【投中】是指投资决策委员会审议通过后，签署正式投资协议并完成投资交割的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "【管理人层面】投决系列文件（议案、决议、申请表、投后管理方案等）",
+            "【基金层面】投决系列文件（分析报告、议案、会议通知、表决票、决议等）"
+          ],
+          "file_items": [
+            {
+              "name": "【管理人层面】投决系列文件（议案、决议、申请表、投后管理方案等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 80
+            },
+            {
+              "name": "【基金层面】投决系列文件（分析报告、议案、会议通知、表决票、决议等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 81
+            }
+          ],
+          "source_rows": [
+            80,
+            81
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_hangke-35273aceda40553d",
+          "level1": "项目层面",
+          "level2": "投中阶段",
+          "level3": "交易文件",
+          "domain_path": "项目层面/投中阶段/交易文件",
+          "level2_definition": "【投中】是指投资决策委员会审议通过后，签署正式投资协议并完成投资交割的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "增资协议/股权转让协议及相关补充协议",
+            "股东间协议（回购协议、一致行动协议）",
+            "对赌协议（如有）",
+            "特殊权利安排文件（一票否决/反稀释/优先清算等）"
+          ],
+          "file_items": [
+            {
+              "name": "增资协议/股权转让协议及相关补充协议",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 82
+            },
+            {
+              "name": "股东间协议（回购协议、一致行动协议）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 83
+            },
+            {
+              "name": "对赌协议（如有）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 84
+            },
+            {
+              "name": "特殊权利安排文件（一票否决/反稀释/优先清算等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 85
+            }
+          ],
+          "source_rows": [
+            82,
+            83,
+            84,
+            85
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_hangke-6575d883e4c10345",
+          "level1": "项目层面",
+          "level2": "投中阶段",
+          "level3": "投资交割及工商变更",
+          "domain_path": "项目层面/投中阶段/投资交割及工商变更",
+          "level2_definition": "【投中】是指投资决策委员会审议通过后，签署正式投资协议并完成投资交割的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "资金划转指令",
+            "付款凭证",
+            "工商变更底档",
+            "股东名册/出资证明书"
+          ],
+          "file_items": [
+            {
+              "name": "资金划转指令",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 86
+            },
+            {
+              "name": "付款凭证",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 87
+            },
+            {
+              "name": "工商变更底档",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 88
+            },
+            {
+              "name": "股东名册/出资证明书",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 89
+            }
+          ],
+          "source_rows": [
+            86,
+            87,
+            88,
+            89
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_hangke-98c61cf1df7283c4",
+          "level1": "项目层面",
+          "level2": "投后阶段",
+          "level3": "投后管理",
+          "domain_path": "项目层面/投后阶段/投后管理",
+          "level2_definition": "【投后】是指投资完成后，对已投项目进行持续跟踪、监管、增值服务和退出的全过程管理",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "投后管理报告（季度/半年度/年度）",
+            "项目三会文件（总经理办公会/董事会/股东会/监事会...）",
+            "被投企业经营情况、财务数据等资料（季度/半年度/年度）",
+            "被投企业重大风险事件报告",
+            "被投企业所属行业研究及发展情况的相关报告"
+          ],
+          "file_items": [
+            {
+              "name": "投后管理报告（季度/半年度/年度）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 90
+            },
+            {
+              "name": "项目三会文件（总经理办公会/董事会/股东会/监事会...）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 91
+            },
+            {
+              "name": "被投企业经营情况、财务数据等资料（季度/半年度/年度）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 92
+            },
+            {
+              "name": "被投企业重大风险事件报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 93
+            },
+            {
+              "name": "被投企业所属行业研究及发展情况的相关报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 94
+            }
+          ],
+          "source_rows": [
+            90,
+            91,
+            92,
+            93,
+            94
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_hangke-afbc011943aacf4f",
+          "level1": "项目层面",
+          "level2": "投后阶段",
+          "level3": "增值赋能",
+          "domain_path": "项目层面/投后阶段/增值赋能",
+          "level2_definition": "【投后】是指投资完成后，对已投项目进行持续跟踪、监管、增值服务和退出的全过程管理",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "【优化公司治理结构（例如：参与战略制定、委派高管、规范财务及内控等）】系列文件",
+            "【对接产业资源与业务拓展（例如：对接产业链上下游、产业生态协同发展、对接政府及市场资源等）】系列文件",
+            "【资本运作与金融支持（例如：投资人对接、投贷联动、产业并购、上市筹划等）】系列文件",
+            "【科创赋能与人才优化（例如：产学研合作对接、科创服务、科创项目申请、研发优化、关键人员引进、股权激励等）】系列文件",
+            "【政策协同及产业生态搭建（例如：帮助申请各类优惠政策、组织行业交流等）】系列文件"
+          ],
+          "file_items": [
+            {
+              "name": "【优化公司治理结构（例如：参与战略制定、委派高管、规范财务及内控等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 95
+            },
+            {
+              "name": "【对接产业资源与业务拓展（例如：对接产业链上下游、产业生态协同发展、对接政府及市场资源等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 96
+            },
+            {
+              "name": "【资本运作与金融支持（例如：投资人对接、投贷联动、产业并购、上市筹划等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 97
+            },
+            {
+              "name": "【科创赋能与人才优化（例如：产学研合作对接、科创服务、科创项目申请、研发优化、关键人员引进、股权激励等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 98
+            },
+            {
+              "name": "【政策协同及产业生态搭建（例如：帮助申请各类优惠政策、组织行业交流等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 99
+            }
+          ],
+          "source_rows": [
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_hangke-510ed1a55f1a8484",
+          "level1": "项目层面",
+          "level2": "投后阶段",
+          "level3": "项目退出",
+          "domain_path": "项目层面/投后阶段/项目退出",
+          "level2_definition": "【投后】是指投资完成后，对已投项目进行持续跟踪、监管、增值服务和退出的全过程管理",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】",
+            "基金"
+          ],
+          "related_files": [
+            "【基金层面】项目投资退出投决系列文件（申请表、议案、会议通知、表决票、决议等）",
+            "退出交易文件（股权转让/并购/回购）",
+            "IPO退出文件（上市申请/股份减持）",
+            "退出工商变更登记底档",
+            "【合伙人层面】退出收益分配投决系列文件（申请表、议案、会议通知、表决票、决议等）"
+          ],
+          "file_items": [
+            {
+              "name": "【基金层面】项目投资退出投决系列文件（申请表、议案、会议通知、表决票、决议等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 100
+            },
+            {
+              "name": "退出交易文件（股权转让/并购/回购）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 101
+            },
+            {
+              "name": "IPO退出文件（上市申请/股份减持）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 102
+            },
+            {
+              "name": "退出工商变更登记底档",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 103
+            },
+            {
+              "name": "【合伙人层面】退出收益分配投决系列文件（申请表、议案、会议通知、表决票、决议等）",
+              "classification_standard": "基金",
+              "source_row": 104
+            }
+          ],
+          "source_rows": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】\n基金"
+        },
+        {
+          "leaf_id": "beijing_hangke-c8ac9d4dbab00f0c",
+          "level1": "公司层面",
+          "level2": "公司注册设立",
+          "level3": "工商登记",
+          "domain_path": "公司层面/公司注册设立/工商登记",
+          "level2_definition": "管理人作为独立法人主体的设立过程，包括工商注册、中基协管理人登记",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "企业名称预先核准通知书",
+            "营业执照",
+            "公司章程",
+            "公司设立登记全套材料",
+            "股东协议/出资协议"
+          ],
+          "file_items": [
+            {
+              "name": "企业名称预先核准通知书",
+              "classification_standard": "/",
+              "source_row": 105
+            },
+            {
+              "name": "营业执照",
+              "classification_standard": "/",
+              "source_row": 106
+            },
+            {
+              "name": "公司章程",
+              "classification_standard": "/",
+              "source_row": 107
+            },
+            {
+              "name": "公司设立登记全套材料",
+              "classification_standard": "/",
+              "source_row": 108
+            },
+            {
+              "name": "股东协议/出资协议",
+              "classification_standard": "/",
+              "source_row": 109
+            }
+          ],
+          "source_rows": [
+            105,
+            106,
+            107,
+            108,
+            109
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-89edd22b970d9c2f",
+          "level1": "公司层面",
+          "level2": "公司注册设立",
+          "level3": "证照与资质",
+          "domain_path": "公司层面/公司注册设立/证照与资质",
+          "level2_definition": "管理人作为独立法人主体的设立过程，包括工商注册、中基协管理人登记",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "私募基金管理人登记申请全套材料（包括：基本信息、相关制度、机构持牌及关联方信息、诚信信息等，具体详见：私募基金管理人登记申请材料清单）",
+            "私募基金管理人登记证书",
+            "各类证照（税务登记/组织机构代码/开户许可证）",
+            "印章刻制备案证明"
+          ],
+          "file_items": [
+            {
+              "name": "私募基金管理人登记申请全套材料（包括：基本信息、相关制度、机构持牌及关联方信息、诚信信息等，具体详见：私募基金管理人登记申请材料清单）",
+              "classification_standard": "/",
+              "source_row": 110
+            },
+            {
+              "name": "私募基金管理人登记证书",
+              "classification_standard": "/",
+              "source_row": 111
+            },
+            {
+              "name": "各类证照（税务登记/组织机构代码/开户许可证）",
+              "classification_standard": "/",
+              "source_row": 112
+            },
+            {
+              "name": "印章刻制备案证明",
+              "classification_standard": "/",
+              "source_row": 113
+            }
+          ],
+          "source_rows": [
+            110,
+            111,
+            112,
+            113
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-51106cc57017ed08",
+          "level1": "公司层面",
+          "level2": "信息维护",
+          "level3": "工商维护",
+          "domain_path": "公司层面/信息维护/工商维护",
+          "level2_definition": "管理人维持主体资格有效、满足持续合规要求的日常性工作",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "企业年报",
+            "税务汇算清缴报告",
+            "工商变更登记文件（名称、经营范围、股东、注册地址等变更）"
+          ],
+          "file_items": [
+            {
+              "name": "企业年报",
+              "classification_standard": "/",
+              "source_row": 114
+            },
+            {
+              "name": "税务汇算清缴报告",
+              "classification_standard": "/",
+              "source_row": 115
+            },
+            {
+              "name": "工商变更登记文件（名称、经营范围、股东、注册地址等变更）",
+              "classification_standard": "/",
+              "source_row": 116
+            }
+          ],
+          "source_rows": [
+            114,
+            115,
+            116
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-b0557e84027c9351",
+          "level1": "公司层面",
+          "level2": "信息维护",
+          "level3": "中基协维护",
+          "domain_path": "公司层面/信息维护/中基协维护",
+          "level2_definition": "管理人维持主体资格有效、满足持续合规要求的日常性工作",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "管理人登记信息变更材料（股东、实控人等）",
+            "法定代表人、高管、合规风控、投资负责人变更材料",
+            "管理人及从业人员信息定期维护、更新资料",
+            "【基协】变更登记文件（名称、经营范围、注册资本、注册地址等变更）"
+          ],
+          "file_items": [
+            {
+              "name": "管理人登记信息变更材料（股东、实控人等）",
+              "classification_standard": "/",
+              "source_row": 117
+            },
+            {
+              "name": "法定代表人、高管、合规风控、投资负责人变更材料",
+              "classification_standard": "/",
+              "source_row": 118
+            },
+            {
+              "name": "管理人及从业人员信息定期维护、更新资料",
+              "classification_standard": "/",
+              "source_row": 119
+            },
+            {
+              "name": "【基协】变更登记文件（名称、经营范围、注册资本、注册地址等变更）",
+              "classification_standard": "/",
+              "source_row": 120
+            }
+          ],
+          "source_rows": [
+            117,
+            118,
+            119,
+            120
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-ece9d5ddc951dd02",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "制度建设",
+          "domain_path": "公司层面/日常运营/制度建设",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "立项委员会议事规则",
+            "风险管理委员会议事规则",
+            "经营管理委员会议事规则",
+            "投资决策委员会议事规则",
+            "合伙协议/公司章程",
+            "运营风险控制制度",
+            "防火墙隔离制度（新拟-未发布）",
+            "信息披露及备份制度（待修订）",
+            "机构内部交易记录制度（新拟-未发布）",
+            "关联交易管理制度（新拟-未发布）",
+            "防范内幕交易及利益输送制度（新拟-未发布）",
+            "私募基金宣传推介及募集制度（代修订）",
+            "合格投资者适当性管理制度（新拟-未发布）",
+            "投资业务控制制度（新拟-未发布）",
+            "公平交易制度（新拟-未发布）",
+            "财务管理制度（待修订）",
+            "突发风险应急预案管理制度（新拟-未发布）",
+            "薪酬制度（待拟定）",
+            "基金清算制度（待拟定）"
+          ],
+          "file_items": [
+            {
+              "name": "立项委员会议事规则",
+              "classification_standard": "/",
+              "source_row": 121
+            },
+            {
+              "name": "风险管理委员会议事规则",
+              "classification_standard": "/",
+              "source_row": 122
+            },
+            {
+              "name": "经营管理委员会议事规则",
+              "classification_standard": "/",
+              "source_row": 123
+            },
+            {
+              "name": "投资决策委员会议事规则",
+              "classification_standard": "/",
+              "source_row": 124
+            },
+            {
+              "name": "合伙协议/公司章程",
+              "classification_standard": "/",
+              "source_row": 125
+            },
+            {
+              "name": "运营风险控制制度",
+              "classification_standard": "/",
+              "source_row": 126
+            },
+            {
+              "name": "防火墙隔离制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 127
+            },
+            {
+              "name": "信息披露及备份制度（待修订）",
+              "classification_standard": "/",
+              "source_row": 128
+            },
+            {
+              "name": "机构内部交易记录制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 129
+            },
+            {
+              "name": "关联交易管理制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 130
+            },
+            {
+              "name": "防范内幕交易及利益输送制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 131
+            },
+            {
+              "name": "私募基金宣传推介及募集制度（代修订）",
+              "classification_standard": "/",
+              "source_row": 132
+            },
+            {
+              "name": "合格投资者适当性管理制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 133
+            },
+            {
+              "name": "投资业务控制制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 134
+            },
+            {
+              "name": "公平交易制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 135
+            },
+            {
+              "name": "财务管理制度（待修订）",
+              "classification_standard": "/",
+              "source_row": 136
+            },
+            {
+              "name": "突发风险应急预案管理制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 137
+            },
+            {
+              "name": "薪酬制度（待拟定）",
+              "classification_standard": "/",
+              "source_row": 138
+            },
+            {
+              "name": "基金清算制度（待拟定）",
+              "classification_standard": "/",
+              "source_row": 139
+            }
+          ],
+          "source_rows": [
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-f0aafffc7aeddb33",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "财务管理",
+          "domain_path": "公司层面/日常运营/财务管理",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "平台财务报表（月度/季度/年度）",
+            "年度审计报告",
+            "税务申报及完税证明",
+            "预算与决算报告（如有）"
+          ],
+          "file_items": [
+            {
+              "name": "平台财务报表（月度/季度/年度）",
+              "classification_standard": "/",
+              "source_row": 140
+            },
+            {
+              "name": "年度审计报告",
+              "classification_standard": "/",
+              "source_row": 141
+            },
+            {
+              "name": "税务申报及完税证明",
+              "classification_standard": "/",
+              "source_row": 142
+            },
+            {
+              "name": "预算与决算报告（如有）",
+              "classification_standard": "/",
+              "source_row": 143
+            }
+          ],
+          "source_rows": [
+            140,
+            141,
+            142,
+            143
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-d61bb7e6b09c8556",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "劳动人事",
+          "domain_path": "公司层面/日常运营/劳动人事",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "劳动合同",
+            "社保/公积金缴纳记录",
+            "员工名册"
+          ],
+          "file_items": [
+            {
+              "name": "劳动合同",
+              "classification_standard": "/",
+              "source_row": 144
+            },
+            {
+              "name": "社保/公积金缴纳记录",
+              "classification_standard": "/",
+              "source_row": 145
+            },
+            {
+              "name": "员工名册",
+              "classification_standard": "/",
+              "source_row": 146
+            }
+          ],
+          "source_rows": [
+            144,
+            145,
+            146
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-51648c8511fe45b1",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "合规及风险",
+          "domain_path": "公司层面/日常运营/合规及风险",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "合规自查报告及工作底稿",
+            "监管检查/自律检查材料及整改系列文件（如有）"
+          ],
+          "file_items": [
+            {
+              "name": "合规自查报告及工作底稿",
+              "classification_standard": "/",
+              "source_row": 147
+            },
+            {
+              "name": "监管检查/自律检查材料及整改系列文件（如有）",
+              "classification_standard": "/",
+              "source_row": 148
+            }
+          ],
+          "source_rows": [
+            147,
+            148
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-9d4b509702c0d6d0",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "立项委员会",
+          "domain_path": "公司层面/三会情况/立项委员会",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "立项委员会台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "立项委员会台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 149
+            }
+          ],
+          "source_rows": [
+            149
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-3e5fb1d5179fe688",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "风险管理委员会",
+          "domain_path": "公司层面/三会情况/风险管理委员会",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "风险管理委员会台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "风险管理委员会台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 150
+            }
+          ],
+          "source_rows": [
+            150
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-2546a4614b39fae8",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "经营管理委员会",
+          "domain_path": "公司层面/三会情况/经营管理委员会",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "经营管理委员台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "经营管理委员台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 151
+            }
+          ],
+          "source_rows": [
+            151
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-c239b8c9693dad68",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "投资决策委员会",
+          "domain_path": "公司层面/三会情况/投资决策委员会",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "投资决策委员会台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "投资决策委员会台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 152
+            }
+          ],
+          "source_rows": [
+            152
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-109a5bd347a39761",
+          "level1": "公司层面",
+          "level2": "股东管理",
+          "level3": "股东信息管理",
+          "domain_path": "公司层面/股东管理/股东信息管理",
+          "level2_definition": "管理人对股东（合伙人）的日常管理、信息沟通及权益保障等工作",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "股东名册/合伙人名册",
+            "股权结构图",
+            "实际控制人信息",
+            "股东出资证明（验资报告、银行回单、资金来源说明函、合规承诺书）"
+          ],
+          "file_items": [
+            {
+              "name": "股东名册/合伙人名册",
+              "classification_standard": "/",
+              "source_row": 153
+            },
+            {
+              "name": "股权结构图",
+              "classification_standard": "/",
+              "source_row": 154
+            },
+            {
+              "name": "实际控制人信息",
+              "classification_standard": "/",
+              "source_row": 155
+            },
+            {
+              "name": "股东出资证明（验资报告、银行回单、资金来源说明函、合规承诺书）",
+              "classification_standard": "/",
+              "source_row": 156
+            }
+          ],
+          "source_rows": [
+            153,
+            154,
+            155,
+            156
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-14a058f0fa3e33eb",
+          "level1": "公司层面",
+          "level2": "股东管理",
+          "level3": "股东权益",
+          "domain_path": "公司层面/股东管理/股东权益",
+          "level2_definition": "管理人对股东（合伙人）的日常管理、信息沟通及权益保障等工作",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "股权转让协议",
+            "增资/减资文件",
+            "利润分配文件（如有）",
+            "股权变动工商变更登记材料"
+          ],
+          "file_items": [
+            {
+              "name": "股权转让协议",
+              "classification_standard": "/",
+              "source_row": 157
+            },
+            {
+              "name": "增资/减资文件",
+              "classification_standard": "/",
+              "source_row": 158
+            },
+            {
+              "name": "利润分配文件（如有）",
+              "classification_standard": "/",
+              "source_row": 159
+            },
+            {
+              "name": "股权变动工商变更登记材料",
+              "classification_standard": "/",
+              "source_row": 160
+            }
+          ],
+          "source_rows": [
+            157,
+            158,
+            159,
+            160
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-6f3b54e26a1ba75b",
+          "level1": "公司层面",
+          "level2": "股东管理",
+          "level3": "股东沟通",
+          "domain_path": "公司层面/股东管理/股东沟通",
+          "level2_definition": "管理人对股东（合伙人）的日常管理、信息沟通及权益保障等工作",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "相关会议材料及纪要"
+          ],
+          "file_items": [
+            {
+              "name": "相关会议材料及纪要",
+              "classification_standard": "/",
+              "source_row": 161
+            }
+          ],
+          "source_rows": [
+            161
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_hangke-ad6495d5ca9741a5",
+          "level1": "公司层面",
+          "level2": "股东管理",
+          "level3": "关联方管理",
+          "domain_path": "公司层面/股东管理/关联方管理",
+          "level2_definition": "管理人对股东（合伙人）的日常管理、信息沟通及权益保障等工作",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "股东关联方清单/关联方认定",
+            "关联交易记录"
+          ],
+          "file_items": [
+            {
+              "name": "股东关联方清单/关联方认定",
+              "classification_standard": "/",
+              "source_row": 162
+            },
+            {
+              "name": "关联交易记录",
+              "classification_standard": "/",
+              "source_row": 163
+            }
+          ],
+          "source_rows": [
+            162,
+            163
+          ],
+          "classification_standard": "/"
+        }
+      ]
+    },
+    {
+      "code": "beijing_motian",
+      "name": "膜天君富",
+      "type": "平台",
+      "leaves": [
+        {
+          "leaf_id": "beijing_motian-428d93afa36f8062",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "基金产品设计",
+          "domain_path": "基金层面/基金设立/基金产品设计",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金方案"
+          ],
+          "file_items": [
+            {
+              "name": "基金方案",
+              "classification_standard": "基金",
+              "source_row": 4
+            }
+          ],
+          "source_rows": [
+            4
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-ed0f84753a2b85d5",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "工商注册-会商",
+          "domain_path": "基金层面/基金设立/工商注册-会商",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "地区+基金\n【XXX省-XX市-XX基金小镇-XXX基金】"
+          ],
+          "related_files": [
+            "每个地方会商要求的材料不一样，可以【XXX省-XX市-XX基金小镇-XXX基金】为划分标准统一打包会商资料，便于后面直接调取会商资料。\n如有变化，更新替代。"
+          ],
+          "file_items": [
+            {
+              "name": "每个地方会商要求的材料不一样，可以【XXX省-XX市-XX基金小镇-XXX基金】为划分标准统一打包会商资料，便于后面直接调取会商资料。\n如有变化，更新替代。",
+              "classification_standard": "地区+基金\n【XXX省-XX市-XX基金小镇-XXX基金】",
+              "source_row": 5
+            }
+          ],
+          "source_rows": [
+            5
+          ],
+          "classification_standard": "地区+基金\n【XXX省-XX市-XX基金小镇-XXX基金】"
+        },
+        {
+          "leaf_id": "beijing_motian-348f04045c691581",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "工商注册-工商登记",
+          "domain_path": "基金层面/基金设立/工商注册-工商登记",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "企业名称预先核准通知书",
+            "营业执照/合伙企业营业执照",
+            "工商设立（变更）登记全套材料、工商底档",
+            "银行基本户/募集户/托管户开户文件",
+            "税务登记及增值税纳税人资格认定文件（如有）"
+          ],
+          "file_items": [
+            {
+              "name": "企业名称预先核准通知书",
+              "classification_standard": "基金",
+              "source_row": 6
+            },
+            {
+              "name": "营业执照/合伙企业营业执照",
+              "classification_standard": "基金",
+              "source_row": 7
+            },
+            {
+              "name": "工商设立（变更）登记全套材料、工商底档",
+              "classification_standard": "基金",
+              "source_row": 8
+            },
+            {
+              "name": "银行基本户/募集户/托管户开户文件",
+              "classification_standard": "基金",
+              "source_row": 9
+            },
+            {
+              "name": "税务登记及增值税纳税人资格认定文件（如有）",
+              "classification_standard": "基金",
+              "source_row": 10
+            }
+          ],
+          "source_rows": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-a1cb56255859d52e",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "基金募集",
+          "domain_path": "基金层面/基金设立/基金募集",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "授权委托书（授权经办人身份证复印件、投资人营业执照复印件）",
+            "投资者基本信息表",
+            "投资者适当性管理文件",
+            "私募基金投资者风险识别能力和风险承担能力评估问卷",
+            "投资者风险类型告知书、投资者确认函（风险不匹配时填写）",
+            "合格投资者证明材料（财务报表、个人收入证明等）",
+            "基金风险揭示录音录像话术（普通投资者）",
+            "反洗钱承诺书",
+            "风险揭示书与声明承诺书",
+            "基金投资者认购信息告知书",
+            "投资者认购信息表",
+            "基金回访确认函",
+            "保密约定",
+            "查询账号相关信息的通知",
+            "合格投资者承诺书",
+            "机构税收居民身份文件",
+            "基金风险等级评估确认书"
+          ],
+          "file_items": [
+            {
+              "name": "授权委托书（授权经办人身份证复印件、投资人营业执照复印件）",
+              "classification_standard": "基金",
+              "source_row": 11
+            },
+            {
+              "name": "投资者基本信息表",
+              "classification_standard": "基金",
+              "source_row": 12
+            },
+            {
+              "name": "投资者适当性管理文件",
+              "classification_standard": "基金",
+              "source_row": 13
+            },
+            {
+              "name": "私募基金投资者风险识别能力和风险承担能力评估问卷",
+              "classification_standard": "基金",
+              "source_row": 14
+            },
+            {
+              "name": "投资者风险类型告知书、投资者确认函（风险不匹配时填写）",
+              "classification_standard": "基金",
+              "source_row": 15
+            },
+            {
+              "name": "合格投资者证明材料（财务报表、个人收入证明等）",
+              "classification_standard": "基金",
+              "source_row": 16
+            },
+            {
+              "name": "基金风险揭示录音录像话术（普通投资者）",
+              "classification_standard": "基金",
+              "source_row": 17
+            },
+            {
+              "name": "反洗钱承诺书",
+              "classification_standard": "基金",
+              "source_row": 18
+            },
+            {
+              "name": "风险揭示书与声明承诺书",
+              "classification_standard": "基金",
+              "source_row": 19
+            },
+            {
+              "name": "基金投资者认购信息告知书",
+              "classification_standard": "基金",
+              "source_row": 20
+            },
+            {
+              "name": "投资者认购信息表",
+              "classification_standard": "基金",
+              "source_row": 21
+            },
+            {
+              "name": "基金回访确认函",
+              "classification_standard": "基金",
+              "source_row": 22
+            },
+            {
+              "name": "保密约定",
+              "classification_standard": "基金",
+              "source_row": 23
+            },
+            {
+              "name": "查询账号相关信息的通知",
+              "classification_standard": "基金",
+              "source_row": 24
+            },
+            {
+              "name": "合格投资者承诺书",
+              "classification_standard": "基金",
+              "source_row": 25
+            },
+            {
+              "name": "机构税收居民身份文件",
+              "classification_standard": "基金",
+              "source_row": 26
+            },
+            {
+              "name": "基金风险等级评估确认书",
+              "classification_standard": "基金",
+              "source_row": 27
+            }
+          ],
+          "source_rows": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-87cf833bb5b727cd",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "基金产品备案",
+          "domain_path": "基金层面/基金设立/基金产品备案",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "合伙人会议决议-中基协版本",
+            "基金合同（合伙协议、合伙协议补充协议、契约型基金合同等）",
+            "首期实缴出资缴付告知函",
+            "基金投资者出资情况说明函",
+            "基金投资者说明函",
+            "私募投资基金备案承诺函",
+            "产品结构图",
+            "招募说明书",
+            "关于投资者资金来源为自有资金的说明函",
+            "关联交易承诺函（如有）",
+            "托管协议",
+            "备案信息变更/重大事项更新申请材料",
+            "委托管理协议（管理人、基金主体分离）",
+            "投资者明细及实缴出资证明",
+            "私募投资基金备案函"
+          ],
+          "file_items": [
+            {
+              "name": "合伙人会议决议-中基协版本",
+              "classification_standard": "基金",
+              "source_row": 28
+            },
+            {
+              "name": "基金合同（合伙协议、合伙协议补充协议、契约型基金合同等）",
+              "classification_standard": "基金",
+              "source_row": 29
+            },
+            {
+              "name": "首期实缴出资缴付告知函",
+              "classification_standard": "基金",
+              "source_row": 30
+            },
+            {
+              "name": "基金投资者出资情况说明函",
+              "classification_standard": "基金",
+              "source_row": 31
+            },
+            {
+              "name": "基金投资者说明函",
+              "classification_standard": "基金",
+              "source_row": 32
+            },
+            {
+              "name": "私募投资基金备案承诺函",
+              "classification_standard": "基金",
+              "source_row": 33
+            },
+            {
+              "name": "产品结构图",
+              "classification_standard": "基金",
+              "source_row": 34
+            },
+            {
+              "name": "招募说明书",
+              "classification_standard": "基金",
+              "source_row": 35
+            },
+            {
+              "name": "关于投资者资金来源为自有资金的说明函",
+              "classification_standard": "基金",
+              "source_row": 36
+            },
+            {
+              "name": "关联交易承诺函（如有）",
+              "classification_standard": "基金",
+              "source_row": 37
+            },
+            {
+              "name": "托管协议",
+              "classification_standard": "基金",
+              "source_row": 38
+            },
+            {
+              "name": "备案信息变更/重大事项更新申请材料",
+              "classification_standard": "基金",
+              "source_row": 39
+            },
+            {
+              "name": "委托管理协议（管理人、基金主体分离）",
+              "classification_standard": "基金",
+              "source_row": 40
+            },
+            {
+              "name": "投资者明细及实缴出资证明",
+              "classification_standard": "基金",
+              "source_row": 41
+            },
+            {
+              "name": "私募投资基金备案函",
+              "classification_standard": "基金",
+              "source_row": 42
+            }
+          ],
+          "source_rows": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-bd988f08e6d9e15a",
+          "level1": "基金层面",
+          "level2": "基金运营",
+          "level3": "信息披露",
+          "domain_path": "基金层面/基金运营/信息披露",
+          "level2_definition": "【基金运营】基金完成备案后，在基金存续期间进行的日常合规管理、投资运作、信息披露等工作",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "AMBERS系统基金季报、年度监测报告",
+            "CRS报告及管理人报告",
+            "信息备份系统基金半年报/年报申报",
+            "政府引导基金系统年度运营报告",
+            "财政部政府引导基金年度运营报告",
+            "LP/及其他政府部门额外要求的报告（季度/半年度/年度基金运营报告）",
+            "临时报告",
+            "投资者沟通记录（如有）（2026.9.1新规要求基金管理人办理投资者信息披露咨询机制）"
+          ],
+          "file_items": [
+            {
+              "name": "AMBERS系统基金季报、年度监测报告",
+              "classification_standard": "基金",
+              "source_row": 43
+            },
+            {
+              "name": "CRS报告及管理人报告",
+              "classification_standard": "基金",
+              "source_row": 44
+            },
+            {
+              "name": "信息备份系统基金半年报/年报申报",
+              "classification_standard": "基金",
+              "source_row": 45
+            },
+            {
+              "name": "政府引导基金系统年度运营报告",
+              "classification_standard": "基金",
+              "source_row": 46
+            },
+            {
+              "name": "财政部政府引导基金年度运营报告",
+              "classification_standard": "基金",
+              "source_row": 47
+            },
+            {
+              "name": "LP/及其他政府部门额外要求的报告（季度/半年度/年度基金运营报告）",
+              "classification_standard": "基金",
+              "source_row": 48
+            },
+            {
+              "name": "临时报告",
+              "classification_standard": "基金",
+              "source_row": 49
+            },
+            {
+              "name": "投资者沟通记录（如有）（2026.9.1新规要求基金管理人办理投资者信息披露咨询机制）",
+              "classification_standard": "基金",
+              "source_row": 50
+            }
+          ],
+          "source_rows": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-a8b1a4cf69eab528",
+          "level1": "基金层面",
+          "level2": "基金运营",
+          "level3": "基金估值",
+          "domain_path": "基金层面/基金运营/基金估值",
+          "level2_definition": "【基金运营】基金完成备案后，在基金存续期间进行的日常合规管理、投资运作、信息披露等工作",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金财务报表、审计报告",
+            "基金估值报告"
+          ],
+          "file_items": [
+            {
+              "name": "基金财务报表、审计报告",
+              "classification_standard": "基金",
+              "source_row": 51
+            },
+            {
+              "name": "基金估值报告",
+              "classification_standard": "基金",
+              "source_row": 52
+            }
+          ],
+          "source_rows": [
+            51,
+            52
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-e54781675a3e71ce",
+          "level1": "基金层面",
+          "level2": "基金运营",
+          "level3": "基金重大变更",
+          "domain_path": "基金层面/基金运营/基金重大变更",
+          "level2_definition": "【基金运营】基金完成备案后，在基金存续期间进行的日常合规管理、投资运作、信息披露等工作",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "合伙人会议系列文件\n例如：\n(1)委派代表变更，需要整理合伙协议之补充协议、合伙人会议决议、工商变更资料等\n(2)基金份额转让，需要整理各次会议纪要、评估报告（估值报告）、合伙人会议决议、份额转让协议、银行回单、工商变更资料等+涉及后续基金重新募集备案对应文件按照要求归类即可"
+          ],
+          "file_items": [
+            {
+              "name": "合伙人会议系列文件\n例如：\n(1)委派代表变更，需要整理合伙协议之补充协议、合伙人会议决议、工商变更资料等\n(2)基金份额转让，需要整理各次会议纪要、评估报告（估值报告）、合伙人会议决议、份额转让协议、银行回单、工商变更资料等+涉及后续基金重新募集备案对应文件按照要求归类即可",
+              "classification_standard": "基金",
+              "source_row": 53
+            }
+          ],
+          "source_rows": [
+            53
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-d226f50aa802605b",
+          "level1": "基金层面",
+          "level2": "清算注销",
+          "level3": "清算启动",
+          "domain_path": "基金层面/清算注销/清算启动",
+          "level2_definition": "【清算注销】基金合同终止后，对基金财产进行清算、分配，并完成在基金业协会的清算备案及在工商、税务等部门的注销登记手续",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金清算方案",
+            "基金清算合伙人会议（启动清算）"
+          ],
+          "file_items": [
+            {
+              "name": "基金清算方案",
+              "classification_standard": "基金",
+              "source_row": 54
+            },
+            {
+              "name": "基金清算合伙人会议（启动清算）",
+              "classification_standard": "基金",
+              "source_row": 55
+            }
+          ],
+          "source_rows": [
+            54,
+            55
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-f047175d1c62348f",
+          "level1": "基金层面",
+          "level2": "清算注销",
+          "level3": "清算执行",
+          "domain_path": "基金层面/清算注销/清算执行",
+          "level2_definition": "【清算注销】基金合同终止后，对基金财产进行清算、分配，并完成在基金业协会的清算备案及在工商、税务等部门的注销登记手续",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金清算报告（如有）",
+            "基金清算财产分配合伙人会议（剩余财产分配方案+启动工商注销）"
+          ],
+          "file_items": [
+            {
+              "name": "基金清算报告（如有）",
+              "classification_standard": "基金",
+              "source_row": 56
+            },
+            {
+              "name": "基金清算财产分配合伙人会议（剩余财产分配方案+启动工商注销）",
+              "classification_standard": "基金",
+              "source_row": 57
+            }
+          ],
+          "source_rows": [
+            56,
+            57
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-2fa362bf47742aa8",
+          "level1": "基金层面",
+          "level2": "清算注销",
+          "level3": "注销登记",
+          "domain_path": "基金层面/清算注销/注销登记",
+          "level2_definition": "【清算注销】基金合同终止后，对基金财产进行清算、分配，并完成在基金业协会的清算备案及在工商、税务等部门的注销登记手续",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金清算公告",
+            "基金工商注销登记材料",
+            "税务注销/清税证明",
+            "银行账户/托管户销户证明"
+          ],
+          "file_items": [
+            {
+              "name": "基金清算公告",
+              "classification_standard": "基金",
+              "source_row": 58
+            },
+            {
+              "name": "基金工商注销登记材料",
+              "classification_standard": "基金",
+              "source_row": 59
+            },
+            {
+              "name": "税务注销/清税证明",
+              "classification_standard": "基金",
+              "source_row": 60
+            },
+            {
+              "name": "银行账户/托管户销户证明",
+              "classification_standard": "基金",
+              "source_row": 61
+            }
+          ],
+          "source_rows": [
+            58,
+            59,
+            60,
+            61
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-931d480a59439cff",
+          "level1": "基金层面",
+          "level2": "其他",
+          "level3": "基金自查",
+          "domain_path": "基金层面/其他/基金自查",
+          "level2_definition": "/",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金自查报告"
+          ],
+          "file_items": [
+            {
+              "name": "基金自查报告",
+              "classification_standard": "基金",
+              "source_row": 62
+            }
+          ],
+          "source_rows": [
+            62
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-f4753d17a2e8d185",
+          "level1": "基金层面",
+          "level2": "其他",
+          "level3": "基金持续出资",
+          "domain_path": "基金层面/其他/基金持续出资",
+          "level2_definition": "/",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "出资证明函"
+          ],
+          "file_items": [
+            {
+              "name": "出资证明函",
+              "classification_standard": "基金",
+              "source_row": 63
+            }
+          ],
+          "source_rows": [
+            63
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "beijing_motian-68b61d1d3a7ab5f2",
+          "level1": "项目层面",
+          "level2": "投前阶段",
+          "level3": "项目资料及立项",
+          "domain_path": "项目层面/投前阶段/项目资料及立项",
+          "level2_definition": "【投前】从项目筛选、初步尽调、立项到正式尽职调查、签署投资条款清单的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "项目资料（项目介绍、商业计划书、行业研究等）",
+            "【管理人层面】立项系列文件（立项报告、立项申请表、会议纪要、会议决议、会议通知）"
+          ],
+          "file_items": [
+            {
+              "name": "项目资料（项目介绍、商业计划书、行业研究等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 64
+            },
+            {
+              "name": "【管理人层面】立项系列文件（立项报告、立项申请表、会议纪要、会议决议、会议通知）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 65
+            }
+          ],
+          "source_rows": [
+            64,
+            65
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_motian-8bbd531b85935a25",
+          "level1": "项目层面",
+          "level2": "投前阶段",
+          "level3": "投资尽调",
+          "domain_path": "项目层面/投前阶段/投资尽调",
+          "level2_definition": "【投前】从项目筛选、初步尽调、立项到正式尽职调查、签署投资条款清单的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "三方服务询价函件及回函",
+            "三方服务委托协议（财务尽调服务协议、法律尽调服务协议、业务尽调服务协议、资产评估委托合同）",
+            "尽调资料清单及企业提供的相关数据资料",
+            "业务尽职调查报告",
+            "财务尽职调查报告",
+            "法律尽职调查报告",
+            "资产评估报告",
+            "尽调访谈纪要",
+            "尽调问题清单及建议整改方案",
+            "保密协议"
+          ],
+          "file_items": [
+            {
+              "name": "三方服务询价函件及回函",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 66
+            },
+            {
+              "name": "三方服务委托协议（财务尽调服务协议、法律尽调服务协议、业务尽调服务协议、资产评估委托合同）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 67
+            },
+            {
+              "name": "尽调资料清单及企业提供的相关数据资料",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 68
+            },
+            {
+              "name": "业务尽职调查报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 69
+            },
+            {
+              "name": "财务尽职调查报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 70
+            },
+            {
+              "name": "法律尽职调查报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 71
+            },
+            {
+              "name": "资产评估报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 72
+            },
+            {
+              "name": "尽调访谈纪要",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 73
+            },
+            {
+              "name": "尽调问题清单及建议整改方案",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 74
+            },
+            {
+              "name": "保密协议",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 75
+            }
+          ],
+          "source_rows": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_motian-f7443d8f60d7371b",
+          "level1": "项目层面",
+          "level2": "投前阶段",
+          "level3": "投前谈判",
+          "domain_path": "项目层面/投前阶段/投前谈判",
+          "level2_definition": "【投前】从项目筛选、初步尽调、立项到正式尽职调查、签署投资条款清单的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "投资方案",
+            "投资意向书/投资框架协议",
+            "与LP、标的公司等就本次投资进行商务磋商的会议纪要",
+            "投资备忘录/投资条款清单"
+          ],
+          "file_items": [
+            {
+              "name": "投资方案",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 76
+            },
+            {
+              "name": "投资意向书/投资框架协议",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 77
+            },
+            {
+              "name": "与LP、标的公司等就本次投资进行商务磋商的会议纪要",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 78
+            },
+            {
+              "name": "投资备忘录/投资条款清单",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 79
+            }
+          ],
+          "source_rows": [
+            76,
+            77,
+            78,
+            79
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_motian-d94320e3f9af123c",
+          "level1": "项目层面",
+          "level2": "投中阶段",
+          "level3": "投资决策",
+          "domain_path": "项目层面/投中阶段/投资决策",
+          "level2_definition": "【投中】是指投资决策委员会审议通过后，签署正式投资协议并完成投资交割的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "【管理人层面】投决系列文件（议案、决议、申请表、投后管理方案等）",
+            "【基金层面】投决系列文件（分析报告、议案、会议通知、表决票、决议等）"
+          ],
+          "file_items": [
+            {
+              "name": "【管理人层面】投决系列文件（议案、决议、申请表、投后管理方案等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 80
+            },
+            {
+              "name": "【基金层面】投决系列文件（分析报告、议案、会议通知、表决票、决议等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 81
+            }
+          ],
+          "source_rows": [
+            80,
+            81
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_motian-35273aceda40553d",
+          "level1": "项目层面",
+          "level2": "投中阶段",
+          "level3": "交易文件",
+          "domain_path": "项目层面/投中阶段/交易文件",
+          "level2_definition": "【投中】是指投资决策委员会审议通过后，签署正式投资协议并完成投资交割的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "增资协议/股权转让协议及相关补充协议",
+            "股东间协议（回购协议、一致行动协议）",
+            "对赌协议（如有）",
+            "特殊权利安排文件（一票否决/反稀释/优先清算等）"
+          ],
+          "file_items": [
+            {
+              "name": "增资协议/股权转让协议及相关补充协议",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 82
+            },
+            {
+              "name": "股东间协议（回购协议、一致行动协议）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 83
+            },
+            {
+              "name": "对赌协议（如有）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 84
+            },
+            {
+              "name": "特殊权利安排文件（一票否决/反稀释/优先清算等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 85
+            }
+          ],
+          "source_rows": [
+            82,
+            83,
+            84,
+            85
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_motian-6575d883e4c10345",
+          "level1": "项目层面",
+          "level2": "投中阶段",
+          "level3": "投资交割及工商变更",
+          "domain_path": "项目层面/投中阶段/投资交割及工商变更",
+          "level2_definition": "【投中】是指投资决策委员会审议通过后，签署正式投资协议并完成投资交割的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "资金划转指令",
+            "付款凭证",
+            "工商变更底档",
+            "股东名册/出资证明书"
+          ],
+          "file_items": [
+            {
+              "name": "资金划转指令",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 86
+            },
+            {
+              "name": "付款凭证",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 87
+            },
+            {
+              "name": "工商变更底档",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 88
+            },
+            {
+              "name": "股东名册/出资证明书",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 89
+            }
+          ],
+          "source_rows": [
+            86,
+            87,
+            88,
+            89
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_motian-98c61cf1df7283c4",
+          "level1": "项目层面",
+          "level2": "投后阶段",
+          "level3": "投后管理",
+          "domain_path": "项目层面/投后阶段/投后管理",
+          "level2_definition": "【投后】是指投资完成后，对已投项目进行持续跟踪、监管、增值服务和退出的全过程管理",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "投后管理报告（季度/半年度/年度）",
+            "项目三会文件（总经理办公会/董事会/股东会/监事会...）",
+            "被投企业经营情况、财务数据等资料（季度/半年度/年度）",
+            "被投企业重大风险事件报告",
+            "被投企业所属行业研究及发展情况的相关报告"
+          ],
+          "file_items": [
+            {
+              "name": "投后管理报告（季度/半年度/年度）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 90
+            },
+            {
+              "name": "项目三会文件（总经理办公会/董事会/股东会/监事会...）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 91
+            },
+            {
+              "name": "被投企业经营情况、财务数据等资料（季度/半年度/年度）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 92
+            },
+            {
+              "name": "被投企业重大风险事件报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 93
+            },
+            {
+              "name": "被投企业所属行业研究及发展情况的相关报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 94
+            }
+          ],
+          "source_rows": [
+            90,
+            91,
+            92,
+            93,
+            94
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_motian-afbc011943aacf4f",
+          "level1": "项目层面",
+          "level2": "投后阶段",
+          "level3": "增值赋能",
+          "domain_path": "项目层面/投后阶段/增值赋能",
+          "level2_definition": "【投后】是指投资完成后，对已投项目进行持续跟踪、监管、增值服务和退出的全过程管理",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "【优化公司治理结构（例如：参与战略制定、委派高管、规范财务及内控等）】系列文件",
+            "【对接产业资源与业务拓展（例如：对接产业链上下游、产业生态协同发展、对接政府及市场资源等）】系列文件",
+            "【资本运作与金融支持（例如：投资人对接、投贷联动、产业并购、上市筹划等）】系列文件",
+            "【科创赋能与人才优化（例如：产学研合作对接、科创服务、科创项目申请、研发优化、关键人员引进、股权激励等）】系列文件",
+            "【政策协同及产业生态搭建（例如：帮助申请各类优惠政策、组织行业交流等）】系列文件"
+          ],
+          "file_items": [
+            {
+              "name": "【优化公司治理结构（例如：参与战略制定、委派高管、规范财务及内控等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 95
+            },
+            {
+              "name": "【对接产业资源与业务拓展（例如：对接产业链上下游、产业生态协同发展、对接政府及市场资源等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 96
+            },
+            {
+              "name": "【资本运作与金融支持（例如：投资人对接、投贷联动、产业并购、上市筹划等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 97
+            },
+            {
+              "name": "【科创赋能与人才优化（例如：产学研合作对接、科创服务、科创项目申请、研发优化、关键人员引进、股权激励等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 98
+            },
+            {
+              "name": "【政策协同及产业生态搭建（例如：帮助申请各类优惠政策、组织行业交流等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 99
+            }
+          ],
+          "source_rows": [
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "beijing_motian-510ed1a55f1a8484",
+          "level1": "项目层面",
+          "level2": "投后阶段",
+          "level3": "项目退出",
+          "domain_path": "项目层面/投后阶段/项目退出",
+          "level2_definition": "【投后】是指投资完成后，对已投项目进行持续跟踪、监管、增值服务和退出的全过程管理",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】",
+            "基金"
+          ],
+          "related_files": [
+            "【基金层面】项目投资退出投决系列文件（申请表、议案、会议通知、表决票、决议等）",
+            "退出交易文件（股权转让/并购/回购）",
+            "IPO退出文件（上市申请/股份减持）",
+            "退出工商变更登记底档",
+            "【合伙人层面】退出收益分配投决系列文件（申请表、议案、会议通知、表决票、决议等）"
+          ],
+          "file_items": [
+            {
+              "name": "【基金层面】项目投资退出投决系列文件（申请表、议案、会议通知、表决票、决议等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 100
+            },
+            {
+              "name": "退出交易文件（股权转让/并购/回购）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 101
+            },
+            {
+              "name": "IPO退出文件（上市申请/股份减持）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 102
+            },
+            {
+              "name": "退出工商变更登记底档",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 103
+            },
+            {
+              "name": "【合伙人层面】退出收益分配投决系列文件（申请表、议案、会议通知、表决票、决议等）",
+              "classification_standard": "基金",
+              "source_row": 104
+            }
+          ],
+          "source_rows": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】\n基金"
+        },
+        {
+          "leaf_id": "beijing_motian-c8ac9d4dbab00f0c",
+          "level1": "公司层面",
+          "level2": "公司注册设立",
+          "level3": "工商登记",
+          "domain_path": "公司层面/公司注册设立/工商登记",
+          "level2_definition": "管理人作为独立法人主体的设立过程，包括工商注册、中基协管理人登记",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "企业名称预先核准通知书",
+            "营业执照",
+            "公司章程",
+            "公司设立登记全套材料",
+            "股东协议/出资协议"
+          ],
+          "file_items": [
+            {
+              "name": "企业名称预先核准通知书",
+              "classification_standard": "/",
+              "source_row": 105
+            },
+            {
+              "name": "营业执照",
+              "classification_standard": "/",
+              "source_row": 106
+            },
+            {
+              "name": "公司章程",
+              "classification_standard": "/",
+              "source_row": 107
+            },
+            {
+              "name": "公司设立登记全套材料",
+              "classification_standard": "/",
+              "source_row": 108
+            },
+            {
+              "name": "股东协议/出资协议",
+              "classification_standard": "/",
+              "source_row": 109
+            }
+          ],
+          "source_rows": [
+            105,
+            106,
+            107,
+            108,
+            109
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_motian-89edd22b970d9c2f",
+          "level1": "公司层面",
+          "level2": "公司注册设立",
+          "level3": "证照与资质",
+          "domain_path": "公司层面/公司注册设立/证照与资质",
+          "level2_definition": "管理人作为独立法人主体的设立过程，包括工商注册、中基协管理人登记",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "私募基金管理人登记申请全套材料（包括：基本信息、相关制度、机构持牌及关联方信息、诚信信息等，具体详见：私募基金管理人登记申请材料清单）",
+            "私募基金管理人登记证书",
+            "各类证照（税务登记/组织机构代码/开户许可证）",
+            "印章刻制备案证明"
+          ],
+          "file_items": [
+            {
+              "name": "私募基金管理人登记申请全套材料（包括：基本信息、相关制度、机构持牌及关联方信息、诚信信息等，具体详见：私募基金管理人登记申请材料清单）",
+              "classification_standard": "/",
+              "source_row": 110
+            },
+            {
+              "name": "私募基金管理人登记证书",
+              "classification_standard": "/",
+              "source_row": 111
+            },
+            {
+              "name": "各类证照（税务登记/组织机构代码/开户许可证）",
+              "classification_standard": "/",
+              "source_row": 112
+            },
+            {
+              "name": "印章刻制备案证明",
+              "classification_standard": "/",
+              "source_row": 113
+            }
+          ],
+          "source_rows": [
+            110,
+            111,
+            112,
+            113
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_motian-51106cc57017ed08",
+          "level1": "公司层面",
+          "level2": "信息维护",
+          "level3": "工商维护",
+          "domain_path": "公司层面/信息维护/工商维护",
+          "level2_definition": "管理人维持主体资格有效、满足持续合规要求的日常性工作",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "企业年报",
+            "税务汇算清缴报告",
+            "工商变更登记文件（名称、经营范围、股东、注册地址等变更）"
+          ],
+          "file_items": [
+            {
+              "name": "企业年报",
+              "classification_standard": "/",
+              "source_row": 114
+            },
+            {
+              "name": "税务汇算清缴报告",
+              "classification_standard": "/",
+              "source_row": 115
+            },
+            {
+              "name": "工商变更登记文件（名称、经营范围、股东、注册地址等变更）",
+              "classification_standard": "/",
+              "source_row": 116
+            }
+          ],
+          "source_rows": [
+            114,
+            115,
+            116
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_motian-b0557e84027c9351",
+          "level1": "公司层面",
+          "level2": "信息维护",
+          "level3": "中基协维护",
+          "domain_path": "公司层面/信息维护/中基协维护",
+          "level2_definition": "管理人维持主体资格有效、满足持续合规要求的日常性工作",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "管理人登记信息变更材料（股东、实控人等）",
+            "法定代表人、高管、合规风控、投资负责人变更材料",
+            "管理人及从业人员信息定期维护、更新资料",
+            "【基协】变更登记文件（名称、经营范围、注册资本、注册地址等变更）"
+          ],
+          "file_items": [
+            {
+              "name": "管理人登记信息变更材料（股东、实控人等）",
+              "classification_standard": "/",
+              "source_row": 117
+            },
+            {
+              "name": "法定代表人、高管、合规风控、投资负责人变更材料",
+              "classification_standard": "/",
+              "source_row": 118
+            },
+            {
+              "name": "管理人及从业人员信息定期维护、更新资料",
+              "classification_standard": "/",
+              "source_row": 119
+            },
+            {
+              "name": "【基协】变更登记文件（名称、经营范围、注册资本、注册地址等变更）",
+              "classification_standard": "/",
+              "source_row": 120
+            }
+          ],
+          "source_rows": [
+            117,
+            118,
+            119,
+            120
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_motian-1719e502b3d003a5",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "制度建设\n【暂时与航科保持一致】",
+          "domain_path": "公司层面/日常运营/制度建设\n【暂时与航科保持一致】",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "立项委员会议事规则",
+            "风险管理委员会议事规则",
+            "经营管理委员会议事规则",
+            "投资决策委员会议事规则",
+            "合伙协议/公司章程",
+            "运营风险控制制度",
+            "防火墙隔离制度（新拟-未发布）",
+            "信息披露及备份制度（待修订）",
+            "机构内部交易记录制度（新拟-未发布）",
+            "关联交易管理制度（新拟-未发布）",
+            "防范内幕交易及利益输送制度（新拟-未发布）",
+            "私募基金宣传推介及募集制度（代修订）",
+            "合格投资者适当性管理制度（新拟-未发布）",
+            "投资业务控制制度（新拟-未发布）",
+            "公平交易制度（新拟-未发布）",
+            "财务管理制度（待修订）",
+            "突发风险应急预案管理制度（新拟-未发布）",
+            "薪酬制度（待拟定）",
+            "基金清算制度（待拟定）"
+          ],
+          "file_items": [
+            {
+              "name": "立项委员会议事规则",
+              "classification_standard": "/",
+              "source_row": 121
+            },
+            {
+              "name": "风险管理委员会议事规则",
+              "classification_standard": "/",
+              "source_row": 122
+            },
+            {
+              "name": "经营管理委员会议事规则",
+              "classification_standard": "/",
+              "source_row": 123
+            },
+            {
+              "name": "投资决策委员会议事规则",
+              "classification_standard": "/",
+              "source_row": 124
+            },
+            {
+              "name": "合伙协议/公司章程",
+              "classification_standard": "/",
+              "source_row": 125
+            },
+            {
+              "name": "运营风险控制制度",
+              "classification_standard": "/",
+              "source_row": 126
+            },
+            {
+              "name": "防火墙隔离制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 127
+            },
+            {
+              "name": "信息披露及备份制度（待修订）",
+              "classification_standard": "/",
+              "source_row": 128
+            },
+            {
+              "name": "机构内部交易记录制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 129
+            },
+            {
+              "name": "关联交易管理制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 130
+            },
+            {
+              "name": "防范内幕交易及利益输送制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 131
+            },
+            {
+              "name": "私募基金宣传推介及募集制度（代修订）",
+              "classification_standard": "/",
+              "source_row": 132
+            },
+            {
+              "name": "合格投资者适当性管理制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 133
+            },
+            {
+              "name": "投资业务控制制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 134
+            },
+            {
+              "name": "公平交易制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 135
+            },
+            {
+              "name": "财务管理制度（待修订）",
+              "classification_standard": "/",
+              "source_row": 136
+            },
+            {
+              "name": "突发风险应急预案管理制度（新拟-未发布）",
+              "classification_standard": "/",
+              "source_row": 137
+            },
+            {
+              "name": "薪酬制度（待拟定）",
+              "classification_standard": "/",
+              "source_row": 138
+            },
+            {
+              "name": "基金清算制度（待拟定）",
+              "classification_standard": "/",
+              "source_row": 139
+            }
+          ],
+          "source_rows": [
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_motian-f0aafffc7aeddb33",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "财务管理",
+          "domain_path": "公司层面/日常运营/财务管理",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "平台财务报表（月度/季度/年度）",
+            "年度审计报告",
+            "税务申报及完税证明",
+            "预算与决算报告（如有）"
+          ],
+          "file_items": [
+            {
+              "name": "平台财务报表（月度/季度/年度）",
+              "classification_standard": "/",
+              "source_row": 140
+            },
+            {
+              "name": "年度审计报告",
+              "classification_standard": "/",
+              "source_row": 141
+            },
+            {
+              "name": "税务申报及完税证明",
+              "classification_standard": "/",
+              "source_row": 142
+            },
+            {
+              "name": "预算与决算报告（如有）",
+              "classification_standard": "/",
+              "source_row": 143
+            }
+          ],
+          "source_rows": [
+            140,
+            141,
+            142,
+            143
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_motian-d61bb7e6b09c8556",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "劳动人事",
+          "domain_path": "公司层面/日常运营/劳动人事",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "劳动合同",
+            "社保/公积金缴纳记录",
+            "员工名册"
+          ],
+          "file_items": [
+            {
+              "name": "劳动合同",
+              "classification_standard": "/",
+              "source_row": 144
+            },
+            {
+              "name": "社保/公积金缴纳记录",
+              "classification_standard": "/",
+              "source_row": 145
+            },
+            {
+              "name": "员工名册",
+              "classification_standard": "/",
+              "source_row": 146
+            }
+          ],
+          "source_rows": [
+            144,
+            145,
+            146
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_motian-51648c8511fe45b1",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "合规及风险",
+          "domain_path": "公司层面/日常运营/合规及风险",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "合规自查报告及工作底稿",
+            "监管检查/自律检查材料及整改系列文件（如有）"
+          ],
+          "file_items": [
+            {
+              "name": "合规自查报告及工作底稿",
+              "classification_standard": "/",
+              "source_row": 147
+            },
+            {
+              "name": "监管检查/自律检查材料及整改系列文件（如有）",
+              "classification_standard": "/",
+              "source_row": 148
+            }
+          ],
+          "source_rows": [
+            147,
+            148
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_motian-9d4b509702c0d6d0",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "立项委员会",
+          "domain_path": "公司层面/三会情况/立项委员会",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "立项委员会台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "立项委员会台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 149
+            }
+          ],
+          "source_rows": [
+            149
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_motian-3e5fb1d5179fe688",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "风险管理委员会",
+          "domain_path": "公司层面/三会情况/风险管理委员会",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "风险管理委员会台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "风险管理委员会台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 150
+            }
+          ],
+          "source_rows": [
+            150
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_motian-2546a4614b39fae8",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "经营管理委员会",
+          "domain_path": "公司层面/三会情况/经营管理委员会",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "经营管理委员台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "经营管理委员台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 151
+            }
+          ],
+          "source_rows": [
+            151
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "beijing_motian-c239b8c9693dad68",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "投资决策委员会",
+          "domain_path": "公司层面/三会情况/投资决策委员会",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "投资决策委员会台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "投资决策委员会台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 152
+            }
+          ],
+          "source_rows": [
+            152
+          ],
+          "classification_standard": "/"
+        }
+      ]
+    },
+    {
+      "code": "neimeng_juyuan",
+      "name": "聚元私募",
+      "type": "平台",
+      "leaves": [
+        {
+          "leaf_id": "neimeng_juyuan-428d93afa36f8062",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "基金产品设计",
+          "domain_path": "基金层面/基金设立/基金产品设计",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金方案"
+          ],
+          "file_items": [
+            {
+              "name": "基金方案",
+              "classification_standard": "基金",
+              "source_row": 4
+            }
+          ],
+          "source_rows": [
+            4
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-ed0f84753a2b85d5",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "工商注册-会商",
+          "domain_path": "基金层面/基金设立/工商注册-会商",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "地区+基金\n【XXX省-XX市-XX基金小镇-XXX基金】"
+          ],
+          "related_files": [
+            "每个地方会商要求的材料不一样，可以【XXX省-XX市-XX基金小镇-XXX基金】为划分标准统一打包会商资料，便于后面直接调取会商资料。\n如有变化，更新替代。"
+          ],
+          "file_items": [
+            {
+              "name": "每个地方会商要求的材料不一样，可以【XXX省-XX市-XX基金小镇-XXX基金】为划分标准统一打包会商资料，便于后面直接调取会商资料。\n如有变化，更新替代。",
+              "classification_standard": "地区+基金\n【XXX省-XX市-XX基金小镇-XXX基金】",
+              "source_row": 5
+            }
+          ],
+          "source_rows": [
+            5
+          ],
+          "classification_standard": "地区+基金\n【XXX省-XX市-XX基金小镇-XXX基金】"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-348f04045c691581",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "工商注册-工商登记",
+          "domain_path": "基金层面/基金设立/工商注册-工商登记",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "企业名称预先核准通知书",
+            "营业执照/合伙企业营业执照",
+            "工商设立（变更）登记全套材料、工商底档",
+            "银行基本户/募集户/托管户开户文件",
+            "税务登记及增值税纳税人资格认定文件（如有）"
+          ],
+          "file_items": [
+            {
+              "name": "企业名称预先核准通知书",
+              "classification_standard": "基金",
+              "source_row": 6
+            },
+            {
+              "name": "营业执照/合伙企业营业执照",
+              "classification_standard": "基金",
+              "source_row": 7
+            },
+            {
+              "name": "工商设立（变更）登记全套材料、工商底档",
+              "classification_standard": "基金",
+              "source_row": 8
+            },
+            {
+              "name": "银行基本户/募集户/托管户开户文件",
+              "classification_standard": "基金",
+              "source_row": 9
+            },
+            {
+              "name": "税务登记及增值税纳税人资格认定文件（如有）",
+              "classification_standard": "基金",
+              "source_row": 10
+            }
+          ],
+          "source_rows": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-a1cb56255859d52e",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "基金募集",
+          "domain_path": "基金层面/基金设立/基金募集",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "授权委托书（授权经办人身份证复印件、投资人营业执照复印件）",
+            "投资者基本信息表",
+            "投资者适当性管理文件",
+            "私募基金投资者风险识别能力和风险承担能力评估问卷",
+            "投资者风险类型告知书、投资者确认函（风险不匹配时填写）",
+            "合格投资者证明材料（财务报表、个人收入证明等）",
+            "基金风险揭示录音录像话术（普通投资者）",
+            "反洗钱承诺书",
+            "风险揭示书与声明承诺书",
+            "基金投资者认购信息告知书",
+            "投资者认购信息表",
+            "基金回访确认函",
+            "保密约定",
+            "查询账号相关信息的通知",
+            "合格投资者承诺书",
+            "机构税收居民身份文件",
+            "基金风险等级评估确认书"
+          ],
+          "file_items": [
+            {
+              "name": "授权委托书（授权经办人身份证复印件、投资人营业执照复印件）",
+              "classification_standard": "基金",
+              "source_row": 11
+            },
+            {
+              "name": "投资者基本信息表",
+              "classification_standard": "基金",
+              "source_row": 12
+            },
+            {
+              "name": "投资者适当性管理文件",
+              "classification_standard": "基金",
+              "source_row": 13
+            },
+            {
+              "name": "私募基金投资者风险识别能力和风险承担能力评估问卷",
+              "classification_standard": "基金",
+              "source_row": 14
+            },
+            {
+              "name": "投资者风险类型告知书、投资者确认函（风险不匹配时填写）",
+              "classification_standard": "基金",
+              "source_row": 15
+            },
+            {
+              "name": "合格投资者证明材料（财务报表、个人收入证明等）",
+              "classification_standard": "基金",
+              "source_row": 16
+            },
+            {
+              "name": "基金风险揭示录音录像话术（普通投资者）",
+              "classification_standard": "基金",
+              "source_row": 17
+            },
+            {
+              "name": "反洗钱承诺书",
+              "classification_standard": "基金",
+              "source_row": 18
+            },
+            {
+              "name": "风险揭示书与声明承诺书",
+              "classification_standard": "基金",
+              "source_row": 19
+            },
+            {
+              "name": "基金投资者认购信息告知书",
+              "classification_standard": "基金",
+              "source_row": 20
+            },
+            {
+              "name": "投资者认购信息表",
+              "classification_standard": "基金",
+              "source_row": 21
+            },
+            {
+              "name": "基金回访确认函",
+              "classification_standard": "基金",
+              "source_row": 22
+            },
+            {
+              "name": "保密约定",
+              "classification_standard": "基金",
+              "source_row": 23
+            },
+            {
+              "name": "查询账号相关信息的通知",
+              "classification_standard": "基金",
+              "source_row": 24
+            },
+            {
+              "name": "合格投资者承诺书",
+              "classification_standard": "基金",
+              "source_row": 25
+            },
+            {
+              "name": "机构税收居民身份文件",
+              "classification_standard": "基金",
+              "source_row": 26
+            },
+            {
+              "name": "基金风险等级评估确认书",
+              "classification_standard": "基金",
+              "source_row": 27
+            }
+          ],
+          "source_rows": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-87cf833bb5b727cd",
+          "level1": "基金层面",
+          "level2": "基金设立",
+          "level3": "基金产品备案",
+          "domain_path": "基金层面/基金设立/基金产品备案",
+          "level2_definition": "【基金设立】管理人完成基金产品的架构设计、主体设立及在基金业协会完成备案登记的过程",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "合伙人会议决议-中基协版本",
+            "基金合同（合伙协议、合伙协议补充协议、契约型基金合同等）",
+            "首期实缴出资缴付告知函",
+            "基金投资者出资情况说明函",
+            "基金投资者说明函",
+            "私募投资基金备案承诺函",
+            "产品结构图",
+            "招募说明书",
+            "关于投资者资金来源为自有资金的说明函",
+            "关联交易承诺函（如有）",
+            "托管协议",
+            "备案信息变更/重大事项更新申请材料",
+            "委托管理协议（管理人、基金主体分离）",
+            "投资者明细及实缴出资证明",
+            "私募投资基金备案函"
+          ],
+          "file_items": [
+            {
+              "name": "合伙人会议决议-中基协版本",
+              "classification_standard": "基金",
+              "source_row": 28
+            },
+            {
+              "name": "基金合同（合伙协议、合伙协议补充协议、契约型基金合同等）",
+              "classification_standard": "基金",
+              "source_row": 29
+            },
+            {
+              "name": "首期实缴出资缴付告知函",
+              "classification_standard": "基金",
+              "source_row": 30
+            },
+            {
+              "name": "基金投资者出资情况说明函",
+              "classification_standard": "基金",
+              "source_row": 31
+            },
+            {
+              "name": "基金投资者说明函",
+              "classification_standard": "基金",
+              "source_row": 32
+            },
+            {
+              "name": "私募投资基金备案承诺函",
+              "classification_standard": "基金",
+              "source_row": 33
+            },
+            {
+              "name": "产品结构图",
+              "classification_standard": "基金",
+              "source_row": 34
+            },
+            {
+              "name": "招募说明书",
+              "classification_standard": "基金",
+              "source_row": 35
+            },
+            {
+              "name": "关于投资者资金来源为自有资金的说明函",
+              "classification_standard": "基金",
+              "source_row": 36
+            },
+            {
+              "name": "关联交易承诺函（如有）",
+              "classification_standard": "基金",
+              "source_row": 37
+            },
+            {
+              "name": "托管协议",
+              "classification_standard": "基金",
+              "source_row": 38
+            },
+            {
+              "name": "备案信息变更/重大事项更新申请材料",
+              "classification_standard": "基金",
+              "source_row": 39
+            },
+            {
+              "name": "委托管理协议（管理人、基金主体分离）",
+              "classification_standard": "基金",
+              "source_row": 40
+            },
+            {
+              "name": "投资者明细及实缴出资证明",
+              "classification_standard": "基金",
+              "source_row": 41
+            },
+            {
+              "name": "私募投资基金备案函",
+              "classification_standard": "基金",
+              "source_row": 42
+            }
+          ],
+          "source_rows": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-bd988f08e6d9e15a",
+          "level1": "基金层面",
+          "level2": "基金运营",
+          "level3": "信息披露",
+          "domain_path": "基金层面/基金运营/信息披露",
+          "level2_definition": "【基金运营】基金完成备案后，在基金存续期间进行的日常合规管理、投资运作、信息披露等工作",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "AMBERS系统基金季报、年度监测报告",
+            "CRS报告及管理人报告",
+            "信息备份系统基金半年报/年报申报",
+            "政府引导基金系统年度运营报告",
+            "财政部政府引导基金年度运营报告",
+            "LP/及其他政府部门额外要求的报告（季度/半年度/年度基金运营报告）",
+            "临时报告",
+            "投资者沟通记录（如有）（2026.9.1新规要求基金管理人办理投资者信息披露咨询机制）"
+          ],
+          "file_items": [
+            {
+              "name": "AMBERS系统基金季报、年度监测报告",
+              "classification_standard": "基金",
+              "source_row": 43
+            },
+            {
+              "name": "CRS报告及管理人报告",
+              "classification_standard": "基金",
+              "source_row": 44
+            },
+            {
+              "name": "信息备份系统基金半年报/年报申报",
+              "classification_standard": "基金",
+              "source_row": 45
+            },
+            {
+              "name": "政府引导基金系统年度运营报告",
+              "classification_standard": "基金",
+              "source_row": 46
+            },
+            {
+              "name": "财政部政府引导基金年度运营报告",
+              "classification_standard": "基金",
+              "source_row": 47
+            },
+            {
+              "name": "LP/及其他政府部门额外要求的报告（季度/半年度/年度基金运营报告）",
+              "classification_standard": "基金",
+              "source_row": 48
+            },
+            {
+              "name": "临时报告",
+              "classification_standard": "基金",
+              "source_row": 49
+            },
+            {
+              "name": "投资者沟通记录（如有）（2026.9.1新规要求基金管理人办理投资者信息披露咨询机制）",
+              "classification_standard": "基金",
+              "source_row": 50
+            }
+          ],
+          "source_rows": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-a8b1a4cf69eab528",
+          "level1": "基金层面",
+          "level2": "基金运营",
+          "level3": "基金估值",
+          "domain_path": "基金层面/基金运营/基金估值",
+          "level2_definition": "【基金运营】基金完成备案后，在基金存续期间进行的日常合规管理、投资运作、信息披露等工作",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金财务报表、审计报告",
+            "基金估值报告"
+          ],
+          "file_items": [
+            {
+              "name": "基金财务报表、审计报告",
+              "classification_standard": "基金",
+              "source_row": 51
+            },
+            {
+              "name": "基金估值报告",
+              "classification_standard": "基金",
+              "source_row": 52
+            }
+          ],
+          "source_rows": [
+            51,
+            52
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-e54781675a3e71ce",
+          "level1": "基金层面",
+          "level2": "基金运营",
+          "level3": "基金重大变更",
+          "domain_path": "基金层面/基金运营/基金重大变更",
+          "level2_definition": "【基金运营】基金完成备案后，在基金存续期间进行的日常合规管理、投资运作、信息披露等工作",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "合伙人会议系列文件\n例如：\n(1)委派代表变更，需要整理合伙协议之补充协议、合伙人会议决议、工商变更资料等\n(2)基金份额转让，需要整理各次会议纪要、评估报告（估值报告）、合伙人会议决议、份额转让协议、银行回单、工商变更资料等+涉及后续基金重新募集备案对应文件按照要求归类即可"
+          ],
+          "file_items": [
+            {
+              "name": "合伙人会议系列文件\n例如：\n(1)委派代表变更，需要整理合伙协议之补充协议、合伙人会议决议、工商变更资料等\n(2)基金份额转让，需要整理各次会议纪要、评估报告（估值报告）、合伙人会议决议、份额转让协议、银行回单、工商变更资料等+涉及后续基金重新募集备案对应文件按照要求归类即可",
+              "classification_standard": "基金",
+              "source_row": 53
+            }
+          ],
+          "source_rows": [
+            53
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-d226f50aa802605b",
+          "level1": "基金层面",
+          "level2": "清算注销",
+          "level3": "清算启动",
+          "domain_path": "基金层面/清算注销/清算启动",
+          "level2_definition": "【清算注销】基金合同终止后，对基金财产进行清算、分配，并完成在基金业协会的清算备案及在工商、税务等部门的注销登记手续",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金清算方案",
+            "基金清算合伙人会议（启动清算）"
+          ],
+          "file_items": [
+            {
+              "name": "基金清算方案",
+              "classification_standard": "基金",
+              "source_row": 54
+            },
+            {
+              "name": "基金清算合伙人会议（启动清算）",
+              "classification_standard": "基金",
+              "source_row": 55
+            }
+          ],
+          "source_rows": [
+            54,
+            55
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-f047175d1c62348f",
+          "level1": "基金层面",
+          "level2": "清算注销",
+          "level3": "清算执行",
+          "domain_path": "基金层面/清算注销/清算执行",
+          "level2_definition": "【清算注销】基金合同终止后，对基金财产进行清算、分配，并完成在基金业协会的清算备案及在工商、税务等部门的注销登记手续",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金清算报告（如有）",
+            "基金清算财产分配合伙人会议（剩余财产分配方案+启动工商注销）"
+          ],
+          "file_items": [
+            {
+              "name": "基金清算报告（如有）",
+              "classification_standard": "基金",
+              "source_row": 56
+            },
+            {
+              "name": "基金清算财产分配合伙人会议（剩余财产分配方案+启动工商注销）",
+              "classification_standard": "基金",
+              "source_row": 57
+            }
+          ],
+          "source_rows": [
+            56,
+            57
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-2fa362bf47742aa8",
+          "level1": "基金层面",
+          "level2": "清算注销",
+          "level3": "注销登记",
+          "domain_path": "基金层面/清算注销/注销登记",
+          "level2_definition": "【清算注销】基金合同终止后，对基金财产进行清算、分配，并完成在基金业协会的清算备案及在工商、税务等部门的注销登记手续",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金清算公告",
+            "基金工商注销登记材料",
+            "税务注销/清税证明",
+            "银行账户/托管户销户证明"
+          ],
+          "file_items": [
+            {
+              "name": "基金清算公告",
+              "classification_standard": "基金",
+              "source_row": 58
+            },
+            {
+              "name": "基金工商注销登记材料",
+              "classification_standard": "基金",
+              "source_row": 59
+            },
+            {
+              "name": "税务注销/清税证明",
+              "classification_standard": "基金",
+              "source_row": 60
+            },
+            {
+              "name": "银行账户/托管户销户证明",
+              "classification_standard": "基金",
+              "source_row": 61
+            }
+          ],
+          "source_rows": [
+            58,
+            59,
+            60,
+            61
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-931d480a59439cff",
+          "level1": "基金层面",
+          "level2": "其他",
+          "level3": "基金自查",
+          "domain_path": "基金层面/其他/基金自查",
+          "level2_definition": "/",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "基金自查报告"
+          ],
+          "file_items": [
+            {
+              "name": "基金自查报告",
+              "classification_standard": "基金",
+              "source_row": 62
+            }
+          ],
+          "source_rows": [
+            62
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-f4753d17a2e8d185",
+          "level1": "基金层面",
+          "level2": "其他",
+          "level3": "基金持续出资",
+          "domain_path": "基金层面/其他/基金持续出资",
+          "level2_definition": "/",
+          "classification_standards": [
+            "基金"
+          ],
+          "related_files": [
+            "出资证明函"
+          ],
+          "file_items": [
+            {
+              "name": "出资证明函",
+              "classification_standard": "基金",
+              "source_row": 63
+            }
+          ],
+          "source_rows": [
+            63
+          ],
+          "classification_standard": "基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-68b61d1d3a7ab5f2",
+          "level1": "项目层面",
+          "level2": "投前阶段",
+          "level3": "项目资料及立项",
+          "domain_path": "项目层面/投前阶段/项目资料及立项",
+          "level2_definition": "【投前】从项目筛选、初步尽调、立项到正式尽职调查、签署投资条款清单的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "项目资料（项目介绍、商业计划书、行业研究等）",
+            "【管理人层面】立项系列文件（立项报告、立项申请表、会议纪要、会议决议、会议通知）"
+          ],
+          "file_items": [
+            {
+              "name": "项目资料（项目介绍、商业计划书、行业研究等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 64
+            },
+            {
+              "name": "【管理人层面】立项系列文件（立项报告、立项申请表、会议纪要、会议决议、会议通知）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 65
+            }
+          ],
+          "source_rows": [
+            64,
+            65
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-8bbd531b85935a25",
+          "level1": "项目层面",
+          "level2": "投前阶段",
+          "level3": "投资尽调",
+          "domain_path": "项目层面/投前阶段/投资尽调",
+          "level2_definition": "【投前】从项目筛选、初步尽调、立项到正式尽职调查、签署投资条款清单的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "三方服务询价函件及回函",
+            "三方服务委托协议（财务尽调服务协议、法律尽调服务协议、业务尽调服务协议、资产评估委托合同）",
+            "尽调资料清单及企业提供的相关数据资料",
+            "业务尽职调查报告",
+            "财务尽职调查报告",
+            "法律尽职调查报告",
+            "资产评估报告",
+            "尽调访谈纪要",
+            "尽调问题清单及建议整改方案",
+            "保密协议"
+          ],
+          "file_items": [
+            {
+              "name": "三方服务询价函件及回函",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 66
+            },
+            {
+              "name": "三方服务委托协议（财务尽调服务协议、法律尽调服务协议、业务尽调服务协议、资产评估委托合同）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 67
+            },
+            {
+              "name": "尽调资料清单及企业提供的相关数据资料",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 68
+            },
+            {
+              "name": "业务尽职调查报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 69
+            },
+            {
+              "name": "财务尽职调查报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 70
+            },
+            {
+              "name": "法律尽职调查报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 71
+            },
+            {
+              "name": "资产评估报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 72
+            },
+            {
+              "name": "尽调访谈纪要",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 73
+            },
+            {
+              "name": "尽调问题清单及建议整改方案",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 74
+            },
+            {
+              "name": "保密协议",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 75
+            }
+          ],
+          "source_rows": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-f7443d8f60d7371b",
+          "level1": "项目层面",
+          "level2": "投前阶段",
+          "level3": "投前谈判",
+          "domain_path": "项目层面/投前阶段/投前谈判",
+          "level2_definition": "【投前】从项目筛选、初步尽调、立项到正式尽职调查、签署投资条款清单的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "投资方案",
+            "投资意向书/投资框架协议",
+            "与LP、标的公司等就本次投资进行商务磋商的会议纪要",
+            "投资备忘录/投资条款清单"
+          ],
+          "file_items": [
+            {
+              "name": "投资方案",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 76
+            },
+            {
+              "name": "投资意向书/投资框架协议",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 77
+            },
+            {
+              "name": "与LP、标的公司等就本次投资进行商务磋商的会议纪要",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 78
+            },
+            {
+              "name": "投资备忘录/投资条款清单",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 79
+            }
+          ],
+          "source_rows": [
+            76,
+            77,
+            78,
+            79
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-d94320e3f9af123c",
+          "level1": "项目层面",
+          "level2": "投中阶段",
+          "level3": "投资决策",
+          "domain_path": "项目层面/投中阶段/投资决策",
+          "level2_definition": "【投中】是指投资决策委员会审议通过后，签署正式投资协议并完成投资交割的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "【管理人层面】投决系列文件（议案、决议、申请表、投后管理方案等）",
+            "【基金层面】投决系列文件（分析报告、议案、会议通知、表决票、决议等）"
+          ],
+          "file_items": [
+            {
+              "name": "【管理人层面】投决系列文件（议案、决议、申请表、投后管理方案等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 80
+            },
+            {
+              "name": "【基金层面】投决系列文件（分析报告、议案、会议通知、表决票、决议等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 81
+            }
+          ],
+          "source_rows": [
+            80,
+            81
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-35273aceda40553d",
+          "level1": "项目层面",
+          "level2": "投中阶段",
+          "level3": "交易文件",
+          "domain_path": "项目层面/投中阶段/交易文件",
+          "level2_definition": "【投中】是指投资决策委员会审议通过后，签署正式投资协议并完成投资交割的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "增资协议/股权转让协议及相关补充协议",
+            "股东间协议（回购协议、一致行动协议）",
+            "对赌协议（如有）",
+            "特殊权利安排文件（一票否决/反稀释/优先清算等）"
+          ],
+          "file_items": [
+            {
+              "name": "增资协议/股权转让协议及相关补充协议",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 82
+            },
+            {
+              "name": "股东间协议（回购协议、一致行动协议）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 83
+            },
+            {
+              "name": "对赌协议（如有）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 84
+            },
+            {
+              "name": "特殊权利安排文件（一票否决/反稀释/优先清算等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 85
+            }
+          ],
+          "source_rows": [
+            82,
+            83,
+            84,
+            85
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-6575d883e4c10345",
+          "level1": "项目层面",
+          "level2": "投中阶段",
+          "level3": "投资交割及工商变更",
+          "domain_path": "项目层面/投中阶段/投资交割及工商变更",
+          "level2_definition": "【投中】是指投资决策委员会审议通过后，签署正式投资协议并完成投资交割的阶段",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "资金划转指令",
+            "付款凭证",
+            "工商变更底档",
+            "股东名册/出资证明书"
+          ],
+          "file_items": [
+            {
+              "name": "资金划转指令",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 86
+            },
+            {
+              "name": "付款凭证",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 87
+            },
+            {
+              "name": "工商变更底档",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 88
+            },
+            {
+              "name": "股东名册/出资证明书",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 89
+            }
+          ],
+          "source_rows": [
+            86,
+            87,
+            88,
+            89
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-98c61cf1df7283c4",
+          "level1": "项目层面",
+          "level2": "投后阶段",
+          "level3": "投后管理",
+          "domain_path": "项目层面/投后阶段/投后管理",
+          "level2_definition": "【投后】是指投资完成后，对已投项目进行持续跟踪、监管、增值服务和退出的全过程管理",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "投后管理报告（季度/半年度/年度）",
+            "项目三会文件（总经理办公会/董事会/股东会/监事会...）",
+            "被投企业经营情况、财务数据等资料（季度/半年度/年度）",
+            "被投企业重大风险事件报告",
+            "被投企业所属行业研究及发展情况的相关报告"
+          ],
+          "file_items": [
+            {
+              "name": "投后管理报告（季度/半年度/年度）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 90
+            },
+            {
+              "name": "项目三会文件（总经理办公会/董事会/股东会/监事会...）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 91
+            },
+            {
+              "name": "被投企业经营情况、财务数据等资料（季度/半年度/年度）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 92
+            },
+            {
+              "name": "被投企业重大风险事件报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 93
+            },
+            {
+              "name": "被投企业所属行业研究及发展情况的相关报告",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 94
+            }
+          ],
+          "source_rows": [
+            90,
+            91,
+            92,
+            93,
+            94
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-afbc011943aacf4f",
+          "level1": "项目层面",
+          "level2": "投后阶段",
+          "level3": "增值赋能",
+          "domain_path": "项目层面/投后阶段/增值赋能",
+          "level2_definition": "【投后】是指投资完成后，对已投项目进行持续跟踪、监管、增值服务和退出的全过程管理",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】"
+          ],
+          "related_files": [
+            "【优化公司治理结构（例如：参与战略制定、委派高管、规范财务及内控等）】系列文件",
+            "【对接产业资源与业务拓展（例如：对接产业链上下游、产业生态协同发展、对接政府及市场资源等）】系列文件",
+            "【资本运作与金融支持（例如：投资人对接、投贷联动、产业并购、上市筹划等）】系列文件",
+            "【科创赋能与人才优化（例如：产学研合作对接、科创服务、科创项目申请、研发优化、关键人员引进、股权激励等）】系列文件",
+            "【政策协同及产业生态搭建（例如：帮助申请各类优惠政策、组织行业交流等）】系列文件"
+          ],
+          "file_items": [
+            {
+              "name": "【优化公司治理结构（例如：参与战略制定、委派高管、规范财务及内控等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 95
+            },
+            {
+              "name": "【对接产业资源与业务拓展（例如：对接产业链上下游、产业生态协同发展、对接政府及市场资源等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 96
+            },
+            {
+              "name": "【资本运作与金融支持（例如：投资人对接、投贷联动、产业并购、上市筹划等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 97
+            },
+            {
+              "name": "【科创赋能与人才优化（例如：产学研合作对接、科创服务、科创项目申请、研发优化、关键人员引进、股权激励等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 98
+            },
+            {
+              "name": "【政策协同及产业生态搭建（例如：帮助申请各类优惠政策、组织行业交流等）】系列文件",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 99
+            }
+          ],
+          "source_rows": [
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-510ed1a55f1a8484",
+          "level1": "项目层面",
+          "level2": "投后阶段",
+          "level3": "项目退出",
+          "domain_path": "项目层面/投后阶段/项目退出",
+          "level2_definition": "【投后】是指投资完成后，对已投项目进行持续跟踪、监管、增值服务和退出的全过程管理",
+          "classification_standards": [
+            "基金+项目\n【XXX基金-XXX被投项目】",
+            "基金"
+          ],
+          "related_files": [
+            "【基金层面】项目投资退出投决系列文件（申请表、议案、会议通知、表决票、决议等）",
+            "退出交易文件（股权转让/并购/回购）",
+            "IPO退出文件（上市申请/股份减持）",
+            "退出工商变更登记底档",
+            "【合伙人层面】退出收益分配投决系列文件（申请表、议案、会议通知、表决票、决议等）"
+          ],
+          "file_items": [
+            {
+              "name": "【基金层面】项目投资退出投决系列文件（申请表、议案、会议通知、表决票、决议等）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 100
+            },
+            {
+              "name": "退出交易文件（股权转让/并购/回购）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 101
+            },
+            {
+              "name": "IPO退出文件（上市申请/股份减持）",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 102
+            },
+            {
+              "name": "退出工商变更登记底档",
+              "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】",
+              "source_row": 103
+            },
+            {
+              "name": "【合伙人层面】退出收益分配投决系列文件（申请表、议案、会议通知、表决票、决议等）",
+              "classification_standard": "基金",
+              "source_row": 104
+            }
+          ],
+          "source_rows": [
+            100,
+            101,
+            102,
+            103,
+            104
+          ],
+          "classification_standard": "基金+项目\n【XXX基金-XXX被投项目】\n基金"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-c8ac9d4dbab00f0c",
+          "level1": "公司层面",
+          "level2": "公司注册设立",
+          "level3": "工商登记",
+          "domain_path": "公司层面/公司注册设立/工商登记",
+          "level2_definition": "管理人作为独立法人主体的设立过程，包括工商注册、中基协管理人登记",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "企业名称预先核准通知书",
+            "营业执照",
+            "公司章程",
+            "公司设立登记全套材料",
+            "股东协议/出资协议"
+          ],
+          "file_items": [
+            {
+              "name": "企业名称预先核准通知书",
+              "classification_standard": "/",
+              "source_row": 105
+            },
+            {
+              "name": "营业执照",
+              "classification_standard": "/",
+              "source_row": 106
+            },
+            {
+              "name": "公司章程",
+              "classification_standard": "/",
+              "source_row": 107
+            },
+            {
+              "name": "公司设立登记全套材料",
+              "classification_standard": "/",
+              "source_row": 108
+            },
+            {
+              "name": "股东协议/出资协议",
+              "classification_standard": "/",
+              "source_row": 109
+            }
+          ],
+          "source_rows": [
+            105,
+            106,
+            107,
+            108,
+            109
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-89edd22b970d9c2f",
+          "level1": "公司层面",
+          "level2": "公司注册设立",
+          "level3": "证照与资质",
+          "domain_path": "公司层面/公司注册设立/证照与资质",
+          "level2_definition": "管理人作为独立法人主体的设立过程，包括工商注册、中基协管理人登记",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "私募基金管理人登记申请全套材料（包括：基本信息、相关制度、机构持牌及关联方信息、诚信信息等，具体详见：私募基金管理人登记申请材料清单）",
+            "私募基金管理人登记证书",
+            "各类证照（税务登记/组织机构代码/开户许可证）",
+            "印章刻制备案证明"
+          ],
+          "file_items": [
+            {
+              "name": "私募基金管理人登记申请全套材料（包括：基本信息、相关制度、机构持牌及关联方信息、诚信信息等，具体详见：私募基金管理人登记申请材料清单）",
+              "classification_standard": "/",
+              "source_row": 110
+            },
+            {
+              "name": "私募基金管理人登记证书",
+              "classification_standard": "/",
+              "source_row": 111
+            },
+            {
+              "name": "各类证照（税务登记/组织机构代码/开户许可证）",
+              "classification_standard": "/",
+              "source_row": 112
+            },
+            {
+              "name": "印章刻制备案证明",
+              "classification_standard": "/",
+              "source_row": 113
+            }
+          ],
+          "source_rows": [
+            110,
+            111,
+            112,
+            113
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-51106cc57017ed08",
+          "level1": "公司层面",
+          "level2": "信息维护",
+          "level3": "工商维护",
+          "domain_path": "公司层面/信息维护/工商维护",
+          "level2_definition": "管理人维持主体资格有效、满足持续合规要求的日常性工作",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "企业年报",
+            "税务汇算清缴报告",
+            "工商变更登记文件（名称、经营范围、股东、注册地址等变更）"
+          ],
+          "file_items": [
+            {
+              "name": "企业年报",
+              "classification_standard": "/",
+              "source_row": 114
+            },
+            {
+              "name": "税务汇算清缴报告",
+              "classification_standard": "/",
+              "source_row": 115
+            },
+            {
+              "name": "工商变更登记文件（名称、经营范围、股东、注册地址等变更）",
+              "classification_standard": "/",
+              "source_row": 116
+            }
+          ],
+          "source_rows": [
+            114,
+            115,
+            116
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-b0557e84027c9351",
+          "level1": "公司层面",
+          "level2": "信息维护",
+          "level3": "中基协维护",
+          "domain_path": "公司层面/信息维护/中基协维护",
+          "level2_definition": "管理人维持主体资格有效、满足持续合规要求的日常性工作",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "管理人登记信息变更材料（股东、实控人等）",
+            "法定代表人、高管、合规风控、投资负责人变更材料",
+            "管理人及从业人员信息定期维护、更新资料",
+            "【基协】变更登记文件（名称、经营范围、注册资本、注册地址等变更）"
+          ],
+          "file_items": [
+            {
+              "name": "管理人登记信息变更材料（股东、实控人等）",
+              "classification_standard": "/",
+              "source_row": 117
+            },
+            {
+              "name": "法定代表人、高管、合规风控、投资负责人变更材料",
+              "classification_standard": "/",
+              "source_row": 118
+            },
+            {
+              "name": "管理人及从业人员信息定期维护、更新资料",
+              "classification_standard": "/",
+              "source_row": 119
+            },
+            {
+              "name": "【基协】变更登记文件（名称、经营范围、注册资本、注册地址等变更）",
+              "classification_standard": "/",
+              "source_row": 120
+            }
+          ],
+          "source_rows": [
+            117,
+            118,
+            119,
+            120
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-1e9dc7cbca8c80e9",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "制度建设-公司治理类",
+          "domain_path": "公司层面/日常运营/制度建设-公司治理类",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "董事会议事规则",
+            "股东会议事规则",
+            "总经理办公会议事规则",
+            "投决会议议事规则",
+            "人事管理制度",
+            "组织架构及职能说明",
+            "费用开支管理办法",
+            "薪酬管理制度",
+            "经理层绩效考评和激励方案"
+          ],
+          "file_items": [
+            {
+              "name": "董事会议事规则",
+              "classification_standard": "/",
+              "source_row": 121
+            },
+            {
+              "name": "股东会议事规则",
+              "classification_standard": "/",
+              "source_row": 122
+            },
+            {
+              "name": "总经理办公会议事规则",
+              "classification_standard": "/",
+              "source_row": 123
+            },
+            {
+              "name": "投决会议议事规则",
+              "classification_standard": "/",
+              "source_row": 124
+            },
+            {
+              "name": "人事管理制度",
+              "classification_standard": "/",
+              "source_row": 125
+            },
+            {
+              "name": "组织架构及职能说明",
+              "classification_standard": "/",
+              "source_row": 126
+            },
+            {
+              "name": "费用开支管理办法",
+              "classification_standard": "/",
+              "source_row": 127
+            },
+            {
+              "name": "薪酬管理制度",
+              "classification_standard": "/",
+              "source_row": 128
+            },
+            {
+              "name": "经理层绩效考评和激励方案",
+              "classification_standard": "/",
+              "source_row": 129
+            }
+          ],
+          "source_rows": [
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-240f7f04b86543c9",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "制度建设-行政管理类",
+          "domain_path": "公司层面/日常运营/制度建设-行政管理类",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "员工行为规范管理制度",
+            "办公室环境卫生管理制度",
+            "考勤管理制度",
+            "三重一大事项决策机制",
+            "印章管理办法",
+            "会议管理办法",
+            "公文管理办法",
+            "固定资产管理办法",
+            "业务招待费管理制度",
+            "办公用品管理制度",
+            "加班餐管理制度",
+            "公司车辆管理制度",
+            "疫情期间防控管理制度"
+          ],
+          "file_items": [
+            {
+              "name": "员工行为规范管理制度",
+              "classification_standard": "/",
+              "source_row": 130
+            },
+            {
+              "name": "办公室环境卫生管理制度",
+              "classification_standard": "/",
+              "source_row": 131
+            },
+            {
+              "name": "考勤管理制度",
+              "classification_standard": "/",
+              "source_row": 132
+            },
+            {
+              "name": "三重一大事项决策机制",
+              "classification_standard": "/",
+              "source_row": 133
+            },
+            {
+              "name": "印章管理办法",
+              "classification_standard": "/",
+              "source_row": 134
+            },
+            {
+              "name": "会议管理办法",
+              "classification_standard": "/",
+              "source_row": 135
+            },
+            {
+              "name": "公文管理办法",
+              "classification_standard": "/",
+              "source_row": 136
+            },
+            {
+              "name": "固定资产管理办法",
+              "classification_standard": "/",
+              "source_row": 137
+            },
+            {
+              "name": "业务招待费管理制度",
+              "classification_standard": "/",
+              "source_row": 138
+            },
+            {
+              "name": "办公用品管理制度",
+              "classification_standard": "/",
+              "source_row": 139
+            },
+            {
+              "name": "加班餐管理制度",
+              "classification_standard": "/",
+              "source_row": 140
+            },
+            {
+              "name": "公司车辆管理制度",
+              "classification_standard": "/",
+              "source_row": 141
+            },
+            {
+              "name": "疫情期间防控管理制度",
+              "classification_standard": "/",
+              "source_row": 142
+            }
+          ],
+          "source_rows": [
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-5ef6a7878f9a4443",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "制度建设-业务管理类",
+          "domain_path": "公司层面/日常运营/制度建设-业务管理类",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "投资管理制度",
+            "募集行为管理制度",
+            "宣传推介制度",
+            "合格投资者内部审核流程制度",
+            "项目遴选标准修订版1.0",
+            "遴选标准-讨论版"
+          ],
+          "file_items": [
+            {
+              "name": "投资管理制度",
+              "classification_standard": "/",
+              "source_row": 143
+            },
+            {
+              "name": "募集行为管理制度",
+              "classification_standard": "/",
+              "source_row": 144
+            },
+            {
+              "name": "宣传推介制度",
+              "classification_standard": "/",
+              "source_row": 145
+            },
+            {
+              "name": "合格投资者内部审核流程制度",
+              "classification_standard": "/",
+              "source_row": 146
+            },
+            {
+              "name": "项目遴选标准修订版1.0",
+              "classification_standard": "/",
+              "source_row": 147
+            },
+            {
+              "name": "遴选标准-讨论版",
+              "classification_standard": "/",
+              "source_row": 148
+            }
+          ],
+          "source_rows": [
+            143,
+            144,
+            145,
+            146,
+            147,
+            148
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-e1125588488a2415",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "制度建设-财务管理类",
+          "domain_path": "公司层面/日常运营/制度建设-财务管理类",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "会计制度",
+            "财务预算管理制度",
+            "财务决算管理制度",
+            "货币资金管理制度",
+            "银行账户管理制度",
+            "费用管理制度",
+            "发票管理制度",
+            "会计档案管理制度"
+          ],
+          "file_items": [
+            {
+              "name": "会计制度",
+              "classification_standard": "/",
+              "source_row": 149
+            },
+            {
+              "name": "财务预算管理制度",
+              "classification_standard": "/",
+              "source_row": 150
+            },
+            {
+              "name": "财务决算管理制度",
+              "classification_standard": "/",
+              "source_row": 151
+            },
+            {
+              "name": "货币资金管理制度",
+              "classification_standard": "/",
+              "source_row": 152
+            },
+            {
+              "name": "银行账户管理制度",
+              "classification_standard": "/",
+              "source_row": 153
+            },
+            {
+              "name": "费用管理制度",
+              "classification_standard": "/",
+              "source_row": 154
+            },
+            {
+              "name": "发票管理制度",
+              "classification_standard": "/",
+              "source_row": 155
+            },
+            {
+              "name": "会计档案管理制度",
+              "classification_standard": "/",
+              "source_row": 156
+            }
+          ],
+          "source_rows": [
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-3a501a9da5d90705",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "制度建设-中基协层面",
+          "domain_path": "公司层面/日常运营/制度建设-中基协层面",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "运营风险控制制度",
+            "信息披露管理制度",
+            "内部交易记录及档案管理制度",
+            "防范内幕交易及利益冲突交易的制度",
+            "合格投资者风险揭示制度",
+            "合格投资者内部审核流程",
+            "私募基金管理人宣传推介制度",
+            "私募投资基金募集行为管理制度",
+            "内部控制制度"
+          ],
+          "file_items": [
+            {
+              "name": "运营风险控制制度",
+              "classification_standard": "/",
+              "source_row": 157
+            },
+            {
+              "name": "信息披露管理制度",
+              "classification_standard": "/",
+              "source_row": 158
+            },
+            {
+              "name": "内部交易记录及档案管理制度",
+              "classification_standard": "/",
+              "source_row": 159
+            },
+            {
+              "name": "防范内幕交易及利益冲突交易的制度",
+              "classification_standard": "/",
+              "source_row": 160
+            },
+            {
+              "name": "合格投资者风险揭示制度",
+              "classification_standard": "/",
+              "source_row": 161
+            },
+            {
+              "name": "合格投资者内部审核流程",
+              "classification_standard": "/",
+              "source_row": 162
+            },
+            {
+              "name": "私募基金管理人宣传推介制度",
+              "classification_standard": "/",
+              "source_row": 163
+            },
+            {
+              "name": "私募投资基金募集行为管理制度",
+              "classification_standard": "/",
+              "source_row": 164
+            },
+            {
+              "name": "内部控制制度",
+              "classification_standard": "/",
+              "source_row": 165
+            }
+          ],
+          "source_rows": [
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-7e2a60db6b1e5e51",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "制度建设-基金层面",
+          "domain_path": "公司层面/日常运营/制度建设-基金层面",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "投后管理制度",
+            "项目遴选标准",
+            "项目库实施方案",
+            "投资管理办法"
+          ],
+          "file_items": [
+            {
+              "name": "投后管理制度",
+              "classification_standard": "/",
+              "source_row": 166
+            },
+            {
+              "name": "项目遴选标准",
+              "classification_standard": "/",
+              "source_row": 167
+            },
+            {
+              "name": "项目库实施方案",
+              "classification_standard": "/",
+              "source_row": 168
+            },
+            {
+              "name": "投资管理办法",
+              "classification_standard": "/",
+              "source_row": 169
+            }
+          ],
+          "source_rows": [
+            166,
+            167,
+            168,
+            169
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-f0aafffc7aeddb33",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "财务管理",
+          "domain_path": "公司层面/日常运营/财务管理",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "平台财务报表（月度/季度/年度）",
+            "年度审计报告",
+            "税务申报及完税证明",
+            "预算与决算报告（如有）"
+          ],
+          "file_items": [
+            {
+              "name": "平台财务报表（月度/季度/年度）",
+              "classification_standard": "/",
+              "source_row": 170
+            },
+            {
+              "name": "年度审计报告",
+              "classification_standard": "/",
+              "source_row": 171
+            },
+            {
+              "name": "税务申报及完税证明",
+              "classification_standard": "/",
+              "source_row": 172
+            },
+            {
+              "name": "预算与决算报告（如有）",
+              "classification_standard": "/",
+              "source_row": 173
+            }
+          ],
+          "source_rows": [
+            170,
+            171,
+            172,
+            173
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-d61bb7e6b09c8556",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "劳动人事",
+          "domain_path": "公司层面/日常运营/劳动人事",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "劳动合同",
+            "社保/公积金缴纳记录",
+            "员工名册"
+          ],
+          "file_items": [
+            {
+              "name": "劳动合同",
+              "classification_standard": "/",
+              "source_row": 174
+            },
+            {
+              "name": "社保/公积金缴纳记录",
+              "classification_standard": "/",
+              "source_row": 175
+            },
+            {
+              "name": "员工名册",
+              "classification_standard": "/",
+              "source_row": 176
+            }
+          ],
+          "source_rows": [
+            174,
+            175,
+            176
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-51648c8511fe45b1",
+          "level1": "公司层面",
+          "level2": "日常运营",
+          "level3": "合规及风险",
+          "domain_path": "公司层面/日常运营/合规及风险",
+          "level2_definition": "日常经营管理所需的制度体系、财务管理、合规风控",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "合规自查报告及工作底稿",
+            "监管检查/自律检查材料及整改系列文件（如有）"
+          ],
+          "file_items": [
+            {
+              "name": "合规自查报告及工作底稿",
+              "classification_standard": "/",
+              "source_row": 177
+            },
+            {
+              "name": "监管检查/自律检查材料及整改系列文件（如有）",
+              "classification_standard": "/",
+              "source_row": 178
+            }
+          ],
+          "source_rows": [
+            177,
+            178
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-75768b34e7c5e17e",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "董事会",
+          "domain_path": "公司层面/三会情况/董事会",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "董事会台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "董事会台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 179
+            }
+          ],
+          "source_rows": [
+            179
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-7219619d8f8bf1eb",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "股东会",
+          "domain_path": "公司层面/三会情况/股东会",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "股东会台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "股东会台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 180
+            }
+          ],
+          "source_rows": [
+            180
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-57ef23a9408ded1e",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "总经理办公会",
+          "domain_path": "公司层面/三会情况/总经理办公会",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "总经理办公会台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "总经理办公会台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 181
+            }
+          ],
+          "source_rows": [
+            181
+          ],
+          "classification_standard": "/"
+        },
+        {
+          "leaf_id": "neimeng_juyuan-5f67a1f450116ece",
+          "level1": "公司层面",
+          "level2": "三会情况",
+          "level3": "投决",
+          "domain_path": "公司层面/三会情况/投决",
+          "level2_definition": "基金管理人（含管理人层面和基金产品层面）各决策会议的文件记录与归档管理",
+          "classification_standards": [
+            "/"
+          ],
+          "related_files": [
+            "投决会议台账及相关文件"
+          ],
+          "file_items": [
+            {
+              "name": "投决会议台账及相关文件",
+              "classification_standard": "/",
+              "source_row": 182
+            }
+          ],
+          "source_rows": [
+            182
+          ],
+          "classification_standard": "/"
+        }
+      ]
+    }
+  ]
+}

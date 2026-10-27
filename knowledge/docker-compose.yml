@@ -1,0 +1,72 @@
+# 科技金融企业知识库系统 - 本地开发编排
+# 与参考项目隔离：Elasticsearch 使用 9202，应用使用 8201。
+# 云端优先：embedding / rerank / LLM 均走云端模型（DashScope），本地仅保留 OCR 模型。
+services:
+  elasticsearch:
+    build:
+      context: ./es-ik
+    container_name: fintechkb-es
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: -Xms1g -Xmx1g
+    ports:
+      # 仅宿主机本地可访问（调试用），不对外暴露
+      - "127.0.0.1:9202:9200"
+    volumes:
+      - ./runtime/elasticsearch-data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:9200/_cluster/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+    logging:
+      driver: json-file
+      options:
+        max-size: "50m"
+        max-file: "5"
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fintechkb-app
+    environment:
+      - ES_URL=http://elasticsearch:9200
+      - OCR_MODELS_DIR=/models/rapidocr
+      # 云端模型（从宿主机 .env 读取，模型注册表未初始化时作为初始配置）
+      - LLM_BASE_URL=${LLM_BASE_URL:-}
+      - LLM_API_KEY=${LLM_API_KEY:-}
+      - LLM_MODEL=${LLM_MODEL:-qwen-max}
+      - EMBEDDING_BASE_URL=${EMBEDDING_BASE_URL:-}
+      - EMBEDDING_API_KEY=${EMBEDDING_API_KEY:-}
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-text-embedding-v4}
+      - EMBEDDING_DIMENSION=${EMBEDDING_DIMENSION:-1024}
+      - LLM_CONFIG_MASTER_KEY=${LLM_CONFIG_MASTER_KEY:-}
+      - RERANK_CONFIG_MASTER_KEY=${RERANK_CONFIG_MASTER_KEY:-}
+      - SEMANTIC_INGEST_MAX_TOKENS=${SEMANTIC_INGEST_MAX_TOKENS:-4000}
+      - PDF_MAX_PAGES=${PDF_MAX_PAGES:-500}
+      - PDF_OCR_MAX_PAGES=${PDF_OCR_MAX_PAGES:-200}
+      - PDF_OCR_DPI=${PDF_OCR_DPI:-144}
+      - PDF_OCR_MAX_PIXELS=${PDF_OCR_MAX_PIXELS:-16000000}
+      - PDF_OCR_TILE_HEIGHT=${PDF_OCR_TILE_HEIGHT:-4000}
+      - PDF_OCR_TILE_OVERLAP=${PDF_OCR_TILE_OVERLAP:-160}
+      - PDF_MIN_PAGE_TEXT=${PDF_MIN_PAGE_TEXT:-30}
+      - KNOWLEDGE_INTERNAL_API_KEY=${KNOWLEDGE_INTERNAL_API_KEY:-}
+    ports:
+      - "8201:8000"
+    volumes:
+      - ./runtime:/app/runtime
+      - ./data:/app/data
+      # 只读挂载本地模型目录（当前仅含 OCR 模型）
+      - ./models:/models:ro
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "50m"
+        max-file: "5"
